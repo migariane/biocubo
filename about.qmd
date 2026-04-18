@@ -40,7 +40,7 @@ Para unirte o colaborar con el grupo, contacta con el coordinador a través del
 ## Afiliación Institucional {.section-title}
 
 ::: {.logo-row}
-[![Universidad de Granada](images/ugr_logo.svg){width="200px"}](https://www.ugr.es)
+[![Universidad de Granada](images/logo_ugr.png){width="180px"}](https://www.ugr.es)
 :::
 
 BIO³ BIOCUBO está vinculado a la **Universidad de Granada** y opera en colaboración con:

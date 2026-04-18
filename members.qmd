@@ -133,6 +133,8 @@ Descripción del perfil académico e investigador.
 
 ---
 
-::: {style="text-align:center; color:#888; font-size:0.88rem; margin-top:2rem;"}
+::: {.institutional-footer}
+[![Universidad de Granada](images/logo_ugr.png){width="120px"}](https://www.ugr.es)
+
 ¿Interesado en unirte a BIO³? Contacta con los coordinadores del grupo a través de la [Universidad de Granada](https://www.ugr.es).
 :::
