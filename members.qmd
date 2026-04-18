@@ -3,80 +3,80 @@ title: "Miembros Fundadores"
 subtitle: "BIO³ BIOCUBO · Universidad de Granada"
 ---
 
-BIO³ está formado por investigadores de diferentes departamentos de la [Universidad de Granada](https://www.ugr.es) que comparten el compromiso con la investigación cuantitativa en biociencias y salud pública.
+BIO³ está formado por investigadores de diferentes departamentos de la [Universidad de Granada](https://www.ugr.es) que comparten el compromiso con la investigacion cuantitativa en biociencias y salud pública.
 
-> Para añadir nuevos miembros, duplica un bloque `.member-card` y rellena los campos.
+> Para añadir nuevos miembros, duplica un bloque `.member-card` y rellena los campos.
 
 ---
 
-## Miembros Fundadores {.section-title}
+## Miembros Fundadores  {.section-title}
 
 <!-- ===================================================
-     MIEMBRO 1 — Juan Manuel Melchor Rodríguez
+     MIEMBRO 1 — Juan Manuel Melchor Rodríguez
      =================================================== -->
 ::: {.member-card}
-### [Juan Manuel Melchor Rodríguez](https://www.ugr.es/personal/juan-manuel-melchor-rodriguez) {#miembro1}
+### [Juan Manuel Melchor Rodríguez](https://www.ugr.es/personal/juan-manuel-melchor-rodriguez) {#miembro1}
 
 ::: {.member-role}
 Miembro Fundador · Coordinador
 :::
 ::: {.member-dept}
-Departamento de Estadística e Investigación Operativa · Universidad de Granada
+Departamento de Estadística e Investigación Operativa · Universidad de Granada
 :::
 ::: {.member-bio}
-Juan Manuel Melchor es matemático especializado en modelización matemática de enfermedades infecciosas, dinámica de poblaciones y epidemiología matemática. Su investigación se centra en el desarrollo de modelos matemáticos para comprender la transmisión de enfermedades, evaluar intervenciones de salud pública y predecir la evolución de epidemias. Profesor en la Universidad de Granada, ha colaborado con instituciones nacionales e internacionales en proyectos relacionados con la epidemiología cuantitativa y la salud pública.
+Juan Manuel Melchor es matemático especializado en modelización matemática de enfermedades infecciosas, dinámica de poblaciones y epidemiología matemática. Su investigación se centra en el desarrollo de modelos matemáticos para comprender la transmisión de enfermedades, evaluar intervenciones de salud pública y predecir la evolución de epidemias. Profesor en la Universidad de Granada, ha colaborado con instituciones nacionales e internacionales en proyectos relacionados con la epidemiología cuantitativa y la salud pública.
 :::
 ::: {.member-tags}
-[Modelización Matemática]{.tag} [Epidemiología Matemática]{.tag} [EDOs]{.tag} [Python]{.tag}
+[Modelización Matemática]{.tag} [Epidemiología Matemática]{.tag} [EDOs]{.tag} [Python]{.tag}
 :::
 ::: {.member-links}
-[<i class="bi bi-journal-text"></i> Producción Científica UGR](https://produccioncientifica.ugr.es/investigadores/355249/detalle){.member-link}
+[<i class="bi bi-journal-text"></i> Producción Científica UGR](https://produccioncientifica.ugr.es/investigadores/355249/detalle){.member-link}
 :::
 :::
 
 <!-- ===================================================
-     MIEMBRO 2 — Miguel Ángel Luque Fernández
+     MIEMBRO 2 — Miguel Ángel Luque Fernández
      =================================================== -->
 ::: {.member-card}
-### [Miguel Ángel Luque Fernández](https://www.ugr.es/personal/miguel-angel-luque-fernandez) {#miembro2}
+### [Miguel Ángel Luque Fernández](https://www.ugr.es/personal/miguel-angel-luque-fernandez) {#miembro2}
 
 ::: {.member-role}
-Miembro Fundador · Coordinador
+Miembro Coordinador
 :::
 ::: {.member-dept}
-Departamento de Estadística e Investigación Operativa · Universidad de Granada
+Departamento de Estadística e Investigación Operativa · Universidad de Granada
 :::
 ::: {.member-bio}
-Matemático Aplicado (Estadística), Epidemiólogo y Bioestadístico con especialización en inferencia causal, métodos semiparamétricos y análisis de supervivencia. Su investigación combina métodos cuantitativos avanzados con preguntas clínicas y de salud pública de alto impacto. Profesor de Estadística en la Universidad de Granada, es también Profesor Asociado Honorario por la London School of Hygiene & Tropical Medicine y fue Postdoctoral Fellow en la Harvard T.H. Chan School of Public Health y la Harvard Medical School, instituciones con las que mantiene colaboraciones activas.
+Matemático Aplicado (Estadística), Epidemiólogo y Bioestadístico con especialización en inferencia causal, métodos semiparamétricos y análisis de supervivencia. Su investigación combina métodos cuantitativos avanzados con preguntas clínicas y de salud pública de alto impacto. Profesor de Estadística en la Universidad de Granada, es también Profesor Asociado Honorario por la London School of Hygiene & Tropical Medicine y fue Postdoctoral Fellow en la Harvard T.H. Chan School of Public Health y la Harvard Medical School, instituciones con las que mantiene colaboraciones activas.
 :::
 ::: {.member-tags}
-[Epidemiología]{.tag} [Inferencia Causal]{.tag} [Bioestadística]{.tag} [Supervivencia]{.tag} [R / Stata]{.tag}
+[Epidemiología]{.tag} [Inferencia Causal]{.tag} [Bioestadística]{.tag} [Supervivencia]{.tag} [R / Stata]{.tag}
 :::
 ::: {.member-links}
-[<i class="bi bi-journal-text"></i> Producción Científica UGR](https://produccioncientifica.ugr.es/investigadores/356497/detalle){.member-link}
+[<i class="bi bi-journal-text"></i> Producción Científica UGR](https://produccioncientifica.ugr.es/investigadores/356497/detalle){.member-link}
 :::
 :::
 
 <!-- ===================================================
-     MIEMBRO 3 — Miguel Ángel Montero Alonso
+     MIEMBRO 3 — Miguel Ángel Montero Alonso
      =================================================== -->
 ::: {.member-card}
-### [Miguel Ángel Montero Alonso](https://www.ugr.es/personal/miguel-angel-montero-alonso) {#miembro3}
+### [Miguel Ángel Montero Alonso](https://www.ugr.es/personal/miguel-angel-montero-alonso) {#miembro3}
 
 ::: {.member-role}
-Miembro Fundador · Coordinador
+Miembro Coordinador
 :::
 ::: {.member-dept}
-Departamento de Estadística e Investigación Operativa · Universidad de Granada
+Departamento de Estadística e Investigación Operativa · Universidad de Granada
 :::
 ::: {.member-bio}
-Miguel Ángel Montero Alonso es matemático especializado en modelización matemática de enfermedades infecciosas, dinámica de poblaciones y epidemiología matemática. Su investigación se centra en el desarrollo de modelos matemáticos para comprender la transmisión de enfermedades, evaluar intervenciones de salud pública y predecir la evolución de epidemias. Profesor en la Universidad de Granada, ha colaborado con instituciones nacionales e internacionales en proyectos relacionados con la epidemiología cuantitativa y la salud pública.
+Miguel Ángel Montero Alonso es matemático especializado en modelización matemática de enfermedades infecciosas, dinámica de poblaciones y epidemiología matemática. Su investigación se centra en el desarrollo de modelos matemáticos para comprender la transmisión de enfermedades, evaluar intervenciones de salud pública y predecir la evolución de epidemias. Profesor en la Universidad de Granada, ha colaborado con instituciones nacionales e internacionales en proyectos relacionados con la epidemiología cuantitativa y la salud pública.
 :::
 ::: {.member-tags}
-[Modelos Matemáticos]{.tag} [Epidemiología Matemática]{.tag} [EDOs]{.tag} [MATLAB / Python]{.tag}
+[Modelos Matemáticos]{.tag} [Epidemiología Matemática]{.tag} [EDOs]{.tag} [MATLAB / Python]{.tag}
 :::
 ::: {.member-links}
-[<i class="bi bi-journal-text"></i> Producción Científica UGR](https://produccioncientifica.ugr.es/investigadores/356547/detalle){.member-link}
+[<i class="bi bi-journal-text"></i> Producción Científica UGR](https://produccioncientifica.ugr.es/investigadores/356547/detalle){.member-link}
 :::
 :::
 
@@ -87,16 +87,16 @@ Miguel Ángel Montero Alonso es matemático especializado en modelización matem
 ### [Nombre Apellido](https://www.ugr.es) {#miembro4}
 
 ::: {.member-role}
-Miembro Fundador
+Miembro 
 :::
 ::: {.member-dept}
 Departamento · Universidad de Granada
 :::
 ::: {.member-bio}
-Descripción del perfil académico e investigador.
+Descripción del perfil académico e investigador.
 :::
 ::: {.member-tags}
-[Área]{.tag} [Especialidad]{.tag}
+[Área]{.tag} [Especialidad]{.tag}
 :::
 :::
 
@@ -107,16 +107,16 @@ Descripción del perfil académico e investigador.
 ### [Nombre Apellido](https://www.ugr.es) {#miembro5}
 
 ::: {.member-role}
-Miembro Fundador
+Miembro 
 :::
 ::: {.member-dept}
 Departamento · Universidad de Granada
 :::
 ::: {.member-bio}
-Descripción del perfil académico e investigador.
+Descripción del perfil académico e investigador.
 :::
 ::: {.member-tags}
-[Área]{.tag} [Especialidad]{.tag}
+[Área]{.tag} [Especialidad]{.tag}
 :::
 :::
 
@@ -127,16 +127,16 @@ Descripción del perfil académico e investigador.
 ### [Nombre Apellido](https://www.ugr.es) {#miembro6}
 
 ::: {.member-role}
-Miembro Fundador
+Miembro 
 :::
 ::: {.member-dept}
 Departamento · Universidad de Granada
 :::
 ::: {.member-bio}
-Descripción del perfil académico e investigador.
+Descripción del perfil académico e investigador.
 :::
 ::: {.member-tags}
-[Área]{.tag} [Especialidad]{.tag}
+[Área]{.tag} [Especialidad]{.tag}
 :::
 :::
 
@@ -145,5 +145,5 @@ Descripción del perfil académico e investigador.
 ::: {.institutional-footer}
 [![Universidad de Granada](images/logo_ugr.png){width="120px"}](https://www.ugr.es)
 
-¿Interesado en unirte a BIO³? Contacta con los coordinadores del grupo a través de la [Universidad de Granada](https://www.ugr.es).
+¿Interesado en unirte a BIO³? Contacta con los coordinadores del grupo a través de la [Universidad de Granada](https://www.ugr.es).
 :::
