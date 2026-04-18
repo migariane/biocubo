@@ -1,0 +1,59 @@
+---
+title: "Sobre BIO³ BIOCUBO"
+subtitle: "Quiénes somos, qué hacemos y cómo colaborar"
+---
+
+## El Grupo {.section-title}
+
+**BIO³ BIOCUBO** es un grupo de investigación interdisciplinar radicado en la [Universidad de Granada](https://www.ugr.es) que reúne a matemáticos, estadísticos, bioestadísticos, epidemiólogos y otros perfiles cuantitativos con un objetivo común: aplicar métodos rigurosos al avance de las biociencias, la epidemiolgía y la salud pública.
+
+El nombre **BIO³** expresa la idea de elevar la biociencia al cubo — multiplicar su potencial a través de la intersección de tres dimensiones cuantitativas:
+
+$$\text{BIO}^3 = \text{Biología} \times \text{Bioestadística} \times \text{Biomatemáticas}$$
+
+---
+
+## Líneas de Investigación {.section-title}
+
+- **Inferencia causal** — métodos semiparamétricos, *targeted learning*, causalidad conformal
+- **Modelos matemáticos** — dinámica de enfermedades infecciosas, modelos poblacionales
+- **Estadística computacional** — métodos de Monte Carlo, inferencia bayesiana, *machine learning*
+- **Bioinformática y ómicas** — análisis genómico, transcriptómico y proteómico
+- **Epidemiología cuantitativa** — farmacoepidemiología, estudios observacionales, grandes bases de datos
+- **Bioestadística clínica** — ensayos clínicos, datos longitudinales, análisis de supervivencia
+
+---
+
+## Cómo Colaborar {.section-title}
+
+BIO³ está abierto a:
+
+- **Investigadores de la UGR** de cualquier departamento con interés en métodos cuantitativos
+- **Investigadores externos** que quieran colaborar o impartir un seminario
+- **Estudiantes de grado, máster y doctorado** interesados en formación cuantitativa avanzada
+- **Clínicos y profesionales de la salud** que busquen apoyo metodológico
+
+Para unirte o colaborar con el grupo, contacta con el coordinador a través del [portal de la Universidad de Granada](https://www.ugr.es).
+
+---
+
+## Afiliación Institucional {.section-title}
+
+::: {.logo-row}
+[![Universidad de Granada](images/ugr_logo.svg){width="200px"}](https://www.ugr.es)
+:::
+
+BIO³ BIOCUBO está vinculado a la **Universidad de Granada** y opera en colaboración con:
+
+- Facultad de Medicina
+- Facultad de Ciencias (Departamentos de Estadística y Matemática Aplicada)
+- Escuela Andaluza de Salud Pública (EASP)
+- Instituto de Investigación Biosanitaria de Granada (ibs.GRANADA)
+
+---
+
+## Contacto {.section-title}
+
+- **Coordinadores:** Juan Manuel Melchor Rodríguez, Miguel Angel Montero Alonso y Miguel Angel Luque-Fernández
+- **Institución:** Universidad de Granada
+- **Web UGR:** [www.ugr.es](https://www.ugr.es)

@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre BIO³ BIOCUBO",
+    "section": "",
+    "text": "BIO³ BIOCUBO es un grupo de investigación interdisciplinar radicado en la Universidad de Granada que reúne a matemáticos, estadísticos, bioestadísticos, epidemiólogos y otros perfiles cuantitativos con un objetivo común: aplicar métodos rigurosos al avance de las biociencias, la epidemiolgía y la salud pública.\nEl nombre BIO³ expresa la idea de elevar la biociencia al cubo — multiplicar su potencial a través de la intersección de tres dimensiones cuantitativas:\n\\[\\text{BIO}^3 = \\text{Biología} \\times \\text{Bioestadística} \\times \\text{Biomatemáticas}\\]"
+  },
+  {
+    "objectID": "about.html#el-grupo",
+    "href": "about.html#el-grupo",
+    "title": "Sobre BIO³ BIOCUBO",
+    "section": "",
+    "text": "BIO³ BIOCUBO es un grupo de investigación interdisciplinar radicado en la Universidad de Granada que reúne a matemáticos, estadísticos, bioestadísticos, epidemiólogos y otros perfiles cuantitativos con un objetivo común: aplicar métodos rigurosos al avance de las biociencias, la epidemiolgía y la salud pública.\nEl nombre BIO³ expresa la idea de elevar la biociencia al cubo — multiplicar su potencial a través de la intersección de tres dimensiones cuantitativas:\n\\[\\text{BIO}^3 = \\text{Biología} \\times \\text{Bioestadística} \\times \\text{Biomatemáticas}\\]"
+  },
+  {
+    "objectID": "about.html#lineas-de-investigacion",
+    "href": "about.html#lineas-de-investigacion",
+    "title": "Sobre BIO³ BIOCUBO",
+    "section": "Líneas de Investigación",
+    "text": "Líneas de Investigación\n\nInferencia causal — métodos semiparamétricos, targeted learning, causalidad conformal\nModelos matemáticos — dinámica de enfermedades infecciosas, modelos poblacionales\nEstadística computacional — métodos de Monte Carlo, inferencia bayesiana, machine learning\nBioinformática y ómicas — análisis genómico, transcriptómico y proteómico\nEpidemiología cuantitativa — farmacoepidemiología, estudios observacionales, grandes bases de datos\nBioestadística clínica — ensayos clínicos, datos longitudinales, análisis de supervivencia"
+  },
+  {
+    "objectID": "about.html#como-colaborar",
+    "href": "about.html#como-colaborar",
+    "title": "Sobre BIO³ BIOCUBO",
+    "section": "Cómo Colaborar",
+    "text": "Cómo Colaborar\nBIO³ está abierto a:\n\nInvestigadores de la UGR de cualquier departamento con interés en métodos cuantitativos\nInvestigadores externos que quieran colaborar o impartir un seminario\nEstudiantes de grado, máster y doctorado interesados en formación cuantitativa avanzada\nClínicos y profesionales de la salud que busquen apoyo metodológico\n\nPara unirte o colaborar con el grupo, contacta con el coordinador a través del portal de la Universidad de Granada."
+  },
+  {
+    "objectID": "about.html#afiliacion-institucional",
+    "href": "about.html#afiliacion-institucional",
+    "title": "Sobre BIO³ BIOCUBO",
+    "section": "Afiliación Institucional",
+    "text": "Afiliación Institucional\n\n\n\n\nUniversidad de Granada\n\n\n\nBIO³ BIOCUBO está vinculado a la Universidad de Granada y opera en colaboración con:\n\nFacultad de Medicina\nFacultad de Ciencias (Departamentos de Estadística y Matemática Aplicada)\nEscuela Andaluza de Salud Pública (EASP)\nInstituto de Investigación Biosanitaria de Granada (ibs.GRANADA)"
+  },
+  {
+    "objectID": "about.html#contacto",
+    "href": "about.html#contacto",
+    "title": "Sobre BIO³ BIOCUBO",
+    "section": "Contacto",
+    "text": "Contacto\n\nCoordinadores: Juan Manuel Melchor Rodríguez, Miguel Angel Montero Alonso y Miguel Angel Luque-Fernández\nInstitución: Universidad de Granada\nWeb UGR: www.ugr.es"
+  },
+  {
+    "objectID": "seminars.html",
+    "href": "seminars.html",
+    "title": "Seminarios BIO³",
+    "section": "",
+    "text": "Los seminarios de BIO³ se celebran trimestralmente y están abiertos a toda la comunidad científica. Cada sesión combina una ponencia científica con tiempo para debate y networking. Los vídeos de las sesiones pasadas quedan disponibles en esta página."
+  },
+  {
+    "objectID": "seminars.html#próximas-sesiones",
+    "href": "seminars.html#próximas-sesiones",
+    "title": "Seminarios BIO³",
+    "section": "Próximas Sesiones",
+    "text": "Próximas Sesiones\n\n\nJunio 2026 · Trimestre II · 2026\n\n\nSesión Inaugural: Presentación de BIO³ e Inferencia Causal Moderna Próximamente\n\nPonente: Miguel Ángel Luque Fernández · Coordinador BIO³\n\n\nSesión de apertura del grupo BIO³ BIOCUBO. Se presentará la misión, los objetivos y las líneas de investigación del grupo, seguida de una charla sobre métodos causales modernos: Conformal Causal Inference y sus aplicaciones en bioestadística y epidemiología.\n\nLugar: Por confirmar · Universidad de Granada Hora: Por confirmar Registro: Abierto a toda la comunidad UGR\n\n\n\n\n\nSeptiembre 2026 · Trimestre III · 2026\n\n\nModelos Matemáticos en Epidemiología de Enfermedades Infecciosas Próximamente\n\nPonente: Por confirmar · Departamento de Matemática Aplicada, UGR\n\n\nSegunda sesión del ciclo BIO³. Se abordarán los fundamentos de los modelos compartimentales (SIR, SEIR) y sus extensiones modernas, con aplicaciones a la pandemia de COVID-19 y otras enfermedades infecciosas emergentes.\n\nLugar: Por confirmar · Universidad de Granada Hora: Por confirmar\n\n\n\n\n\nDiciembre 2026 · Trimestre IV · 2026\n\n\nAnálisis de Datos Ómicos: del Genoma al Fenotipo Próximamente\n\nPonente: Por confirmar · Departamento de Bioquímica y Biología Molecular, UGR\n\n\nTercera sesión del ciclo anual. Introducción al análisis estadístico de datos genómicos, transcriptómicos y proteómicos. Métodos de reducción de dimensionalidad, corrección de múltiples comparaciones y pipelines de análisis reproducible con R/Bioconductor.\n\nLugar: Por confirmar · Universidad de Granada"
+  },
+  {
+    "objectID": "seminars.html#sesiones-pasadas",
+    "href": "seminars.html#sesiones-pasadas",
+    "title": "Seminarios BIO³",
+    "section": "Sesiones Pasadas",
+    "text": "Sesiones Pasadas\n\nLas sesiones inaugurales de BIO³ comenzarán en 2026. Esta sección se irá completando con los vídeos y materiales de cada sesión."
+  },
+  {
+    "objectID": "seminars.html#formato-de-los-seminarios",
+    "href": "seminars.html#formato-de-los-seminarios",
+    "title": "Seminarios BIO³",
+    "section": "Formato de los Seminarios",
+    "text": "Formato de los Seminarios\n\n\n\nElemento\nDetalle\n\n\n\n\nFrecuencia\nTrimestral (Marzo, Junio, Sept., Dic.)\n\n\nDuración\n60–90 minutos (charla + debate)\n\n\nModalidad\nPresencial + retransmisión online\n\n\nVídeos\nPublicados en esta página tras la sesión\n\n\nIdioma\nEspañol / Inglés\n\n\nAcceso\nLibre y abierto a toda la comunidad\n\n\n\n\n\nPara proponer una ponencia o para más información, contacta con el grupo a través de la Universidad de Granada."
+  },
+  {
+    "objectID": "members.html",
+    "href": "members.html",
+    "title": "Miembros Fundadores",
+    "section": "",
+    "text": "BIO³ está formado por investigadores de diferentes departamentos de la Universidad de Granada que comparten el compromiso con la investigación cuantitativa en biociencias y salud pública."
+  },
+  {
+    "objectID": "members.html#miembros-fundadores",
+    "href": "members.html#miembros-fundadores",
+    "title": "Miembros Fundadores",
+    "section": "Miembros Fundadores",
+    "text": "Miembros Fundadores\n\n\nJuan Manuel Melchor Rodríguez\n\nMiembro Fundador · Coordinador\n\n\nDepartamento de Estadística e Investigación Operativa · Universidad de Granada\n\n\nJuan Manuel Melchor es matemático especializado en modelización matemática de enfermedades infecciosas, dinámica de poblaciones y epidemiología matemática. Su investigación se centra en el desarrollo de modelos matemáticos para comprender la transmisión de enfermedades, evaluar intervenciones de salud pública y predecir la evolución de epidemias. Profesor en la Universidad de Granada, ha colaborado con instituciones nacionales e internacionales en proyectos relacionados con la epidemiología cuantitativa y la salud pública.\n\n\nModelización Matemática Epidemiología Matemática EDOs Python\n\n\n\n\nMiguel Ángel Luque Fernández\n\nMiembro Fundador · Coordinador\n\n\nDepartamento de Estadística e Investigación Operativa · Universidad de Granada\n\n\nMatemático Aplicado (Estadística), Epidemiólogo y Bioestadístico con especialización en inferencia causal, métodos semiparamétricos y análisis de supervivencia. Su investigación combina métodos cuantitativos avanzados con preguntas clínicas y de salud pública de alto impacto. Profesor de Estadística en la Universidad de Granada, es también Profesor Asociado Honorario por la London School of Hygiene & Tropical Medicine y fue Postdoctoral Fellow en la Harvard T.H. Chan School of Public Health y la Harvard Medical School, instituciones con las que mantiene colaboraciones activas.\n\n\nEpidemiología Inferencia Causal Bioestadística Supervivencia R / Stata\n\n\n\n\nMiguel Ángel Montero Alonso\n\nMiembro Fundador · Coordinador\n\n\nDepartamento de Estadística e Investigación Operativa · Universidad de Granada\n\n\nMiguel Ángel Montero Alonso es matemático especializado en modelización matemática de enfermedades infecciosas, dinámica de poblaciones y epidemiología matemática. Su investigación se centra en el desarrollo de modelos matemáticos para comprender la transmisión de enfermedades, evaluar intervenciones de salud pública y predecir la evolución de epidemias. Profesor en la Universidad de Granada, ha colaborado con instituciones nacionales e internacionales en proyectos relacionados con la epidemiología cuantitativa y la salud pública.\n\n\nModelos Matemáticos Epidemiología Matemática EDOs MATLAB / Python\n\n\n\n\nNombre Apellido\n\nMiembro Fundador\n\n\nDepartamento · Universidad de Granada\n\n\nDescripción del perfil académico e investigador.\n\n\nÁrea Especialidad\n\n\n\n\nNombre Apellido\n\nMiembro Fundador\n\n\nDepartamento · Universidad de Granada\n\n\nDescripción del perfil académico e investigador.\n\n\nÁrea Especialidad\n\n\n\n\nNombre Apellido\n\nMiembro Fundador\n\n\nDepartamento · Universidad de Granada\n\n\nDescripción del perfil académico e investigador.\n\n\nÁrea Especialidad\n\n\n\n\n¿Interesado en unirte a BIO³? Contacta con los coordinadores del grupo a través de la Universidad de Granada."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "BIO³ · BIOCUBO",
+    "section": "",
+    "text": "Grupo de Investigación Cuantitativa en Biociencias (Biomatemáticas, Bioestadística y Bioinformática), Epidemiología y Salud Pública\n\n\nMatemáticas · Estadística · Bioestadística · Epidemiología · Ciencia de Datos · Bioinformática"
+  },
+  {
+    "objectID": "index.html#que-es-bio³",
+    "href": "index.html#que-es-bio³",
+    "title": "BIO³ · BIOCUBO",
+    "section": "¿Qué es BIO³?",
+    "text": "¿Qué es BIO³?\nBIO³ (BIOCUBO) es un grupo interdisciplinar de investigadores cuantitativos de la Universidad de Granada comprometidos con el avance de la ciencia a través de métodos matemáticos y estadísticos rigurosos aplicados a las biociencias, la salud pública y la epidemiología.\nEl nombre BIO³ refleja la intersección tridimensional de Biología, Bioestadística y Biomatemáticas — tres pilares que juntos forman el núcleo del grupo."
+  },
+  {
+    "objectID": "index.html#disciplinas-del-grupo",
+    "href": "index.html#disciplinas-del-grupo",
+    "title": "BIO³ · BIOCUBO",
+    "section": "Disciplinas del Grupo",
+    "text": "Disciplinas del Grupo\n\n\n???? Matemáticas\n\n\n???? Estadística\n\n\n???? Bioestadística\n\n\n???? Epidemiología\n\n\n???? Ciencia de Datos\n\n\n???? Bioinformática"
+  },
+  {
+    "objectID": "index.html#mision",
+    "href": "index.html#mision",
+    "title": "BIO³ · BIOCUBO",
+    "section": "Misión",
+    "text": "Misión\nBIO³ nace con tres objetivos fundacionales:\n\nInvestigar — desarrollar y aplicar métodos cuantitativos avanzados en biociencias, epidemiología y salud pública.\nDivulgar — organizar seminarios trimestrales abiertos a la comunidad científica y académica.\nColaborar — construir puentes entre disciplinas y grupos dentro y fuera de la UGR."
+  },
+  {
+    "objectID": "index.html#proximo-seminario",
+    "href": "index.html#proximo-seminario",
+    "title": "BIO³ · BIOCUBO",
+    "section": "Próximo Seminario",
+    "text": "Próximo Seminario\n\n\nJunio 2026 · Trimestre II\n\n\nInferencia Causal Conformal en Bioestadística Próximamente\n\nPonentes: Por confirmar · BIO³ BIOCUBO — UGR\n\n\nSesión inaugural del grupo. Se presentarán los fundamentos del grupo, las líneas de investigación prioritarias y una primera charla científica sobre métodos causales modernos.\n\nVer todos los seminarios →\n\n\n\n\nBIO³ BIOCUBO · Universidad de Granada · Granada, España"
+  }
+]
