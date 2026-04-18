@@ -5,8 +5,6 @@ subtitle: "BIO³ BIOCUBO · Universidad de Granada"
 
 BIO³ está formado por investigadores de diferentes departamentos de la [Universidad de Granada](https://www.ugr.es) que comparten el compromiso con la investigacion cuantitativa en biociencias y salud pública.
 
-> Para añadir nuevos miembros, duplica un bloque `.member-card` y rellena los campos.
-
 ---
 
 ## Miembros Fundadores  {.section-title}
