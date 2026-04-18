@@ -148,6 +148,25 @@ h2.section-title {
   font-weight: 500;
 }
 
+/* ── Member links ─────────────────────────────── */
+.member-links {
+  margin-top: 0.75rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--border);
+}
+.member-link {
+  display: inline-block;
+  font-size: 0.80rem;
+  font-weight: 500;
+  color: var(--blue) !important;
+  text-decoration: none !important;
+  margin-right: 1rem;
+}
+.member-link:hover {
+  color: var(--navy) !important;
+  text-decoration: underline !important;
+}
+
 /* ── Seminar cards ────────────────────────────── */
 .seminar-card {
   background: white;

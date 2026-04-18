@@ -29,6 +29,9 @@ Juan Manuel Melchor es matemático especializado en modelización matemática de
 ::: {.member-tags}
 [Modelización Matemática]{.tag} [Epidemiología Matemática]{.tag} [EDOs]{.tag} [Python]{.tag}
 :::
+::: {.member-links}
+[<i class="bi bi-journal-text"></i> Producción Científica UGR](https://produccioncientifica.ugr.es/investigadores/355249/detalle){.member-link}
+:::
 :::
 
 <!-- ===================================================
@@ -49,6 +52,9 @@ Matemático Aplicado (Estadística), Epidemiólogo y Bioestadístico con especia
 ::: {.member-tags}
 [Epidemiología]{.tag} [Inferencia Causal]{.tag} [Bioestadística]{.tag} [Supervivencia]{.tag} [R / Stata]{.tag}
 :::
+::: {.member-links}
+[<i class="bi bi-journal-text"></i> Producción Científica UGR](https://produccioncientifica.ugr.es/investigadores/356497/detalle){.member-link}
+:::
 :::
 
 <!-- ===================================================
@@ -68,6 +74,9 @@ Miguel Ángel Montero Alonso es matemático especializado en modelización matem
 :::
 ::: {.member-tags}
 [Modelos Matemáticos]{.tag} [Epidemiología Matemática]{.tag} [EDOs]{.tag} [MATLAB / Python]{.tag}
+:::
+::: {.member-links}
+[<i class="bi bi-journal-text"></i> Producción Científica UGR](https://produccioncientifica.ugr.es/investigadores/356547/detalle){.member-link}
 :::
 :::
 
