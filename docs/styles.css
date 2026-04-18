@@ -1,219 +1,295 @@
-/* ===== BIO³ BIOCUBO — Custom Styles ===== */
+/* ===== BIO³ BIOCUBO — Academic Styles · Universidad de Granada ===== */
 
 :root {
-  --bio-blue:    #1e4f8c;
-  --bio-accent:  #f0c040;
-  --ugr-red:     #8b0000;
-  --bio-light:   #eef4fb;
-  --bio-dark:    #0d2a45;
+  --ugr-garnet:   #8b0000;   /* UGR institutional garnet */
+  --ugr-dark:     #5c0000;   /* Deep garnet for depth */
+  --ugr-gold:     #8a6d00;   /* Muted institutional gold */
+  --ugr-gold-lt:  #c9a800;   /* Lighter gold for borders */
+  --slate:        #1e293b;   /* Professional dark slate */
+  --slate-mid:    #4a5568;   /* Medium slate */
+  --stone:        #f7f5f2;   /* Warm off-white (paper) */
+  --stone-mid:    #ede9e3;   /* Mid stone */
+  --border:       #d4ccc0;   /* Warm border */
+  --text:         #1a1a1a;   /* Body text */
+  --text-muted:   #5a5a5a;   /* Secondary text */
 }
 
-/* Navbar */
+/* ── Navbar ─────────────────────────────────── */
 .navbar {
-  background: var(--bio-dark) !important;
-  border-bottom: 3px solid var(--bio-accent);
+  background: var(--ugr-garnet) !important;
+  border-bottom: 3px solid var(--ugr-gold-lt);
 }
 .navbar-brand, .navbar .nav-link {
-  color: white !important;
+  color: rgba(255,255,255,0.92) !important;
+  font-weight: 500;
 }
 .navbar .nav-link:hover {
-  color: var(--bio-accent) !important;
+  color: white !important;
+  text-decoration: underline;
+}
+.navbar-brand img {
+  margin-right: 0.4rem;
+}
+/* UGR logo in navbar (right side) */
+.navbar-nav .nav-item a img {
+  opacity: 0.88;
+  transition: opacity 0.2s;
+  filter: brightness(0) invert(1);
+}
+.navbar-nav .nav-item a:hover img {
+  opacity: 1;
 }
 
-/* Hero banner */
+/* ── Hero banner ─────────────────────────────── */
 .hero-banner {
-  background: linear-gradient(135deg, var(--bio-dark) 0%, var(--bio-blue) 60%, #2563a8 100%);
+  background: linear-gradient(160deg, var(--ugr-dark) 0%, var(--ugr-garnet) 100%);
   color: white;
-  padding: 4rem 2rem;
+  padding: 3.5rem 2rem 3rem;
   text-align: center;
-  border-radius: 0 0 1rem 1rem;
+  border-bottom: 4px solid var(--ugr-gold-lt);
   margin-bottom: 2.5rem;
 }
 .hero-banner h1 {
-  font-size: 3.2rem;
-  font-weight: 800;
-  letter-spacing: 2px;
-  margin-bottom: 0.4rem;
-}
-.hero-banner .subtitle {
-  font-size: 1.25rem;
-  opacity: 0.85;
-  margin-bottom: 1.2rem;
-}
-.hero-banner .tagline {
-  font-size: 1rem;
-  opacity: 0.7;
-  font-style: italic;
-}
-
-/* Section headings */
-h2.section-title {
-  color: var(--bio-blue);
-  border-left: 5px solid var(--bio-accent);
-  padding-left: 0.8rem;
-  margin-top: 2rem;
-  margin-bottom: 1.2rem;
-}
-
-/* Member cards */
-.member-card {
-  background: white;
-  border: 1px solid #dde5f0;
-  border-top: 4px solid var(--bio-blue);
-  border-radius: 0.5rem;
-  padding: 1.4rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-  transition: box-shadow 0.2s;
-}
-.member-card:hover {
-  box-shadow: 0 6px 20px rgba(30,79,140,0.15);
-}
-.member-card h3 {
-  margin-top: 0;
-  color: var(--bio-blue);
-  font-size: 1.15rem;
-}
-.member-card h3 a {
-  color: var(--bio-blue);
-  text-decoration: none;
-}
-.member-card h3 a:hover {
-  color: var(--ugr-red);
-  text-decoration: underline;
-}
-.member-role {
-  font-size: 0.88rem;
-  font-weight: 600;
-  color: var(--ugr-red);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-bottom: 0.4rem;
-}
-.member-dept {
-  font-size: 0.85rem;
-  color: #555;
-  margin-bottom: 0.6rem;
-}
-.member-bio {
-  font-size: 0.92rem;
-  color: #333;
-  line-height: 1.55;
-}
-.member-tags {
-  margin-top: 0.7rem;
-}
-.tag {
-  display: inline-block;
-  background: var(--bio-light);
-  color: var(--bio-blue);
-  border: 1px solid #c0d4ee;
-  border-radius: 20px;
-  padding: 2px 10px;
-  font-size: 0.78rem;
-  margin: 2px 3px 2px 0;
-}
-
-/* Seminar cards */
-.seminar-card {
-  background: white;
-  border: 1px solid #dde5f0;
-  border-left: 5px solid var(--bio-blue);
-  border-radius: 0.4rem;
-  padding: 1.2rem 1.4rem;
-  margin-bottom: 1.2rem;
-  box-shadow: 0 1px 5px rgba(0,0,0,0.05);
-}
-.seminar-card.upcoming {
-  border-left-color: var(--bio-accent);
-  background: #fffdf0;
-}
-.seminar-date {
-  font-size: 0.82rem;
+  font-size: 2.8rem;
   font-weight: 700;
-  color: #888;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-.seminar-card h3 {
-  margin: 0.3rem 0 0.3rem;
-  color: var(--bio-dark);
-  font-size: 1.05rem;
-}
-.seminar-speaker {
-  font-size: 0.9rem;
-  color: var(--bio-blue);
-  font-style: italic;
+  letter-spacing: 1px;
   margin-bottom: 0.5rem;
 }
-.seminar-abstract {
-  font-size: 0.88rem;
-  color: #444;
-  margin-bottom: 0.7rem;
+.hero-banner .subtitle {
+  font-size: 1.08rem;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.btn-video {
-  display: inline-block;
-  background: var(--ugr-red);
-  color: white !important;
-  padding: 4px 14px;
-  border-radius: 4px;
-  font-size: 0.82rem;
-  text-decoration: none !important;
-  margin-right: 8px;
-}
-.btn-video:hover {
-  background: #6b0000;
-}
-.badge-upcoming {
-  display: inline-block;
-  background: var(--bio-accent);
-  color: #333;
-  font-size: 0.75rem;
-  font-weight: 700;
-  padding: 2px 10px;
-  border-radius: 20px;
-  margin-left: 8px;
-  vertical-align: middle;
+.hero-banner .tagline {
+  font-size: 0.92rem;
+  opacity: 0.72;
+  font-style: italic;
+  letter-spacing: 0.3px;
 }
 
-/* Disciplines grid */
-.disciplines-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 1rem;
-  margin: 1.5rem 0;
-}
-.discipline-item {
-  background: var(--bio-light);
-  border: 1px solid #c0d4ee;
-  border-radius: 0.5rem;
-  padding: 1rem;
-  text-align: center;
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--bio-blue);
-}
-.discipline-item .icon {
-  font-size: 1.8rem;
-  display: block;
-  margin-bottom: 0.4rem;
-}
-
-/* Footer */
-.page-footer {
-  background: var(--bio-dark);
-  color: #aaa;
-  border-top: 3px solid var(--bio-accent);
-}
-
-/* Utility */
-.text-accent { color: var(--bio-accent); }
-.text-ugr    { color: var(--ugr-red); }
+/* ── UGR logo display ─────────────────────────── */
 .logo-row {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 2.5rem;
   margin: 1.5rem 0;
   flex-wrap: wrap;
 }
+.logo-row img {
+  transition: opacity 0.2s;
+}
+.logo-row img:hover {
+  opacity: 0.8;
+}
+/* Invert for dark backgrounds */
+.logo-inverted img {
+  filter: brightness(0) invert(1);
+  opacity: 0.85;
+}
+.logo-inverted img:hover {
+  opacity: 1;
+}
+
+/* ── Section headings ───────────────────────── */
+h2.section-title {
+  color: var(--ugr-garnet);
+  border-left: 4px solid var(--ugr-gold-lt);
+  padding-left: 0.75rem;
+  margin-top: 2.2rem;
+  margin-bottom: 1.2rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+  letter-spacing: 0;
+}
+
+/* ── Member cards ─────────────────────────────── */
+.member-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--ugr-garnet);
+  border-radius: 0.2rem;
+  padding: 1.4rem;
+  margin-bottom: 1.4rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  transition: box-shadow 0.2s;
+}
+.member-card:hover {
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+.member-card h3 {
+  margin-top: 0;
+  color: var(--slate);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.member-card h3 a {
+  color: var(--slate);
+  text-decoration: none;
+}
+.member-card h3 a:hover {
+  color: var(--ugr-garnet);
+  text-decoration: underline;
+}
+.member-role {
+  font-size: 0.80rem;
+  font-weight: 700;
+  color: var(--ugr-garnet);
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 0.3rem;
+}
+.member-dept {
+  font-size: 0.84rem;
+  color: var(--text-muted);
+  margin-bottom: 0.6rem;
+  font-style: italic;
+}
+.member-bio {
+  font-size: 0.91rem;
+  color: var(--text);
+  line-height: 1.62;
+}
+.member-tags {
+  margin-top: 0.75rem;
+}
+.tag {
+  display: inline-block;
+  background: var(--stone);
+  color: var(--slate-mid);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 2px 9px;
+  font-size: 0.75rem;
+  margin: 2px 3px 2px 0;
+  font-weight: 500;
+}
+
+/* ── Seminar cards ────────────────────────────── */
+.seminar-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--ugr-garnet);
+  border-radius: 0.2rem;
+  padding: 1.2rem 1.4rem;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+.seminar-card.upcoming {
+  border-left-color: var(--ugr-gold-lt);
+  background: #fdfaf4;
+}
+.seminar-date {
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+.seminar-card h3 {
+  margin: 0.3rem 0;
+  color: var(--slate);
+  font-size: 1.02rem;
+  font-weight: 600;
+}
+.seminar-speaker {
+  font-size: 0.88rem;
+  color: var(--ugr-garnet);
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+.seminar-abstract {
+  font-size: 0.87rem;
+  color: #444;
+  margin-bottom: 0.7rem;
+  line-height: 1.58;
+}
+.btn-video {
+  display: inline-block;
+  background: var(--ugr-garnet);
+  color: white !important;
+  padding: 4px 14px;
+  border-radius: 3px;
+  font-size: 0.80rem;
+  text-decoration: none !important;
+  margin-right: 8px;
+  font-weight: 500;
+}
+.btn-video:hover {
+  background: var(--ugr-dark);
+}
+.badge-upcoming {
+  display: inline-block;
+  background: var(--stone-mid);
+  color: var(--ugr-dark);
+  border: 1px solid var(--ugr-gold-lt);
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 1px 9px;
+  border-radius: 3px;
+  margin-left: 8px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+
+/* ── Disciplines grid ─────────────────────────── */
+.disciplines-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.8rem;
+  margin: 1.5rem 0;
+}
+.discipline-item {
+  background: var(--stone);
+  border: 1px solid var(--border);
+  border-top: 2px solid var(--ugr-garnet);
+  border-radius: 0.2rem;
+  padding: 1.1rem 0.75rem;
+  text-align: center;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--slate);
+}
+.discipline-item .icon {
+  font-size: 1.6rem;
+  display: block;
+  margin-bottom: 0.4rem;
+  color: var(--ugr-garnet);
+}
+
+/* ── Page footer ──────────────────────────────── */
+.page-footer {
+  background: var(--slate) !important;
+  color: #b0a8a0;
+  border-top: 3px solid var(--ugr-garnet);
+  font-size: 0.85rem;
+}
+.page-footer a {
+  color: #c8bfb8;
+}
+.page-footer a:hover {
+  color: white;
+}
+
+/* ── Institutional footer block ──────────────── */
+.institutional-footer {
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+  border-top: 1px solid var(--border);
+  margin-top: 2rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+.institutional-footer img {
+  margin-bottom: 0.6rem;
+}
+
+/* ── Utility ──────────────────────────────────── */
+.text-ugr   { color: var(--ugr-garnet); }
+.text-gold  { color: var(--ugr-gold); }
+.text-slate { color: var(--slate); }

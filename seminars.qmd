@@ -111,6 +111,8 @@ Ponente: [Nombre Apellido] · [Afiliación]
 
 ---
 
-::: {style="text-align:center; color:#888; font-size:0.88rem; margin-top:2rem;"}
+::: {.institutional-footer}
+[![Universidad de Granada](images/logo_ugr.png){width="120px"}](https://www.ugr.es)
+
 Para proponer una ponencia o para más información, contacta con el grupo a través de la [Universidad de Granada](https://www.ugr.es).
 :::
