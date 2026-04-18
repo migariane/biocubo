@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "BIO³ · BIOCUBO"
+  description: "Grupo de Investigación Cuantitativa en Biociencias — Universidad de Granada"
+  favicon: images/biocubo_logo.svg
+
+  navbar:
+    logo: images/biocubo_logo.svg
+    logo-alt: "BIO³ BIOCUBO"
+    title: false
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: members.qmd
+        text: Miembros
+      - href: seminars.qmd
+        text: Seminarios
+      - href: about.qmd
+        text: Sobre el Grupo
+    right:
+      - text: "Universidad de Granada"
+        href: "https://www.ugr.es"
+        icon: globe
+
+  page-footer:
+    left: "BIO³ BIOCUBO · Grupo de Investigación Cuantitativa en Biociencias"
+    right: "© 2026 Universidad de Granada"
+    background: dark
+
+  open-graph:
+    title: "BIO³ BIOCUBO"
+    description: "Matemáticos, Estadísticos, Bioestadísticos y Epidemiólogos — UGR"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    html-math-method: mathjax

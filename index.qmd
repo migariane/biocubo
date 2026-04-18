@@ -1,0 +1,101 @@
+---
+title: ""
+page-layout: full
+---
+
+::: {.hero-banner}
+![](images/biocubo_logo.svg){width="110px" style="margin-bottom:1rem;"}
+
+# BIO³ · BIOCUBO
+
+::: {.subtitle}
+Grupo de Investigación Cuantitativa en Biociencias (Biomatemáticas, Bioestadística y Bioinformática), Epidemiología y Salud Pública
+:::
+
+::: {.tagline}
+Matemáticas · Estadística · Bioestadística · Epidemiología · Ciencia de Datos · Bioinformática
+:::
+:::
+
+---
+
+::: {.logo-row}
+[![](images/ugr_logo.svg){width="180px"}](https://www.ugr.es)
+:::
+
+---
+
+## ¿Qué es BIO³? {.section-title}
+
+**BIO³** (BIOCUBO) es un grupo interdisciplinar de investigadores cuantitativos de la [Universidad de Granada](https://www.ugr.es) comprometidos con el avance de la ciencia a través de métodos matemáticos y estadísticos rigurosos aplicados a las biociencias, la salud pública y la epidemiología.
+
+El nombre **BIO³** refleja la intersección tridimensional de **Biología**, **Bioestadística** y **Biomatemáticas** — tres pilares que juntos forman el núcleo del grupo.
+
+---
+
+## Disciplinas del Grupo {.section-title}
+
+::: {.disciplines-grid}
+::: {.discipline-item}
+[????]{.icon}
+Matemáticas
+:::
+::: {.discipline-item}
+[????]{.icon}
+Estadística
+:::
+::: {.discipline-item}
+[????]{.icon}
+Bioestadística
+:::
+::: {.discipline-item}
+[????]{.icon}
+Epidemiología
+:::
+::: {.discipline-item}
+[????]{.icon}
+Ciencia de Datos
+:::
+::: {.discipline-item}
+[????]{.icon}
+Bioinformática
+:::
+:::
+
+---
+
+## Misión {.section-title}
+
+BIO³ nace con tres objetivos fundacionales:
+
+1. **Investigar** — desarrollar y aplicar métodos cuantitativos avanzados en biociencias, epidemiología y salud pública.
+2. **Divulgar** — organizar seminarios trimestrales abiertos a la comunidad científica y académica.
+3. **Colaborar** — construir puentes entre disciplinas y grupos dentro y fuera de la UGR.
+
+---
+
+## Próximo Seminario {.section-title}
+
+::: {.seminar-card .upcoming}
+::: {.seminar-date}
+Junio 2026 · Trimestre II
+:::
+
+### Inferencia Causal Conformal en Bioestadística [Próximamente]{.badge-upcoming}
+
+::: {.seminar-speaker}
+Ponentes: Por confirmar · BIO³ BIOCUBO — UGR
+:::
+
+::: {.seminar-abstract}
+Sesión inaugural del grupo. Se presentarán los fundamentos del grupo, las líneas de investigación prioritarias y una primera charla científica sobre métodos causales modernos.
+:::
+
+[Ver todos los seminarios →](seminars.qmd)
+:::
+
+---
+
+::: {style="text-align:center; margin-top:2rem; color:#666; font-size:0.9rem;"}
+BIO³ BIOCUBO · [Universidad de Granada](https://www.ugr.es) · Granada, España
+:::

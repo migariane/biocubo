@@ -1,0 +1,219 @@
+/* ===== BIO³ BIOCUBO — Custom Styles ===== */
+
+:root {
+  --bio-blue:    #1e4f8c;
+  --bio-accent:  #f0c040;
+  --ugr-red:     #8b0000;
+  --bio-light:   #eef4fb;
+  --bio-dark:    #0d2a45;
+}
+
+/* Navbar */
+.navbar {
+  background: var(--bio-dark) !important;
+  border-bottom: 3px solid var(--bio-accent);
+}
+.navbar-brand, .navbar .nav-link {
+  color: white !important;
+}
+.navbar .nav-link:hover {
+  color: var(--bio-accent) !important;
+}
+
+/* Hero banner */
+.hero-banner {
+  background: linear-gradient(135deg, var(--bio-dark) 0%, var(--bio-blue) 60%, #2563a8 100%);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  border-radius: 0 0 1rem 1rem;
+  margin-bottom: 2.5rem;
+}
+.hero-banner h1 {
+  font-size: 3.2rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 0.4rem;
+}
+.hero-banner .subtitle {
+  font-size: 1.25rem;
+  opacity: 0.85;
+  margin-bottom: 1.2rem;
+}
+.hero-banner .tagline {
+  font-size: 1rem;
+  opacity: 0.7;
+  font-style: italic;
+}
+
+/* Section headings */
+h2.section-title {
+  color: var(--bio-blue);
+  border-left: 5px solid var(--bio-accent);
+  padding-left: 0.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+/* Member cards */
+.member-card {
+  background: white;
+  border: 1px solid #dde5f0;
+  border-top: 4px solid var(--bio-blue);
+  border-radius: 0.5rem;
+  padding: 1.4rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  transition: box-shadow 0.2s;
+}
+.member-card:hover {
+  box-shadow: 0 6px 20px rgba(30,79,140,0.15);
+}
+.member-card h3 {
+  margin-top: 0;
+  color: var(--bio-blue);
+  font-size: 1.15rem;
+}
+.member-card h3 a {
+  color: var(--bio-blue);
+  text-decoration: none;
+}
+.member-card h3 a:hover {
+  color: var(--ugr-red);
+  text-decoration: underline;
+}
+.member-role {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--ugr-red);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.4rem;
+}
+.member-dept {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 0.6rem;
+}
+.member-bio {
+  font-size: 0.92rem;
+  color: #333;
+  line-height: 1.55;
+}
+.member-tags {
+  margin-top: 0.7rem;
+}
+.tag {
+  display: inline-block;
+  background: var(--bio-light);
+  color: var(--bio-blue);
+  border: 1px solid #c0d4ee;
+  border-radius: 20px;
+  padding: 2px 10px;
+  font-size: 0.78rem;
+  margin: 2px 3px 2px 0;
+}
+
+/* Seminar cards */
+.seminar-card {
+  background: white;
+  border: 1px solid #dde5f0;
+  border-left: 5px solid var(--bio-blue);
+  border-radius: 0.4rem;
+  padding: 1.2rem 1.4rem;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+}
+.seminar-card.upcoming {
+  border-left-color: var(--bio-accent);
+  background: #fffdf0;
+}
+.seminar-date {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.seminar-card h3 {
+  margin: 0.3rem 0 0.3rem;
+  color: var(--bio-dark);
+  font-size: 1.05rem;
+}
+.seminar-speaker {
+  font-size: 0.9rem;
+  color: var(--bio-blue);
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+.seminar-abstract {
+  font-size: 0.88rem;
+  color: #444;
+  margin-bottom: 0.7rem;
+}
+.btn-video {
+  display: inline-block;
+  background: var(--ugr-red);
+  color: white !important;
+  padding: 4px 14px;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  text-decoration: none !important;
+  margin-right: 8px;
+}
+.btn-video:hover {
+  background: #6b0000;
+}
+.badge-upcoming {
+  display: inline-block;
+  background: var(--bio-accent);
+  color: #333;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 20px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+/* Disciplines grid */
+.disciplines-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.discipline-item {
+  background: var(--bio-light);
+  border: 1px solid #c0d4ee;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--bio-blue);
+}
+.discipline-item .icon {
+  font-size: 1.8rem;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+/* Footer */
+.page-footer {
+  background: var(--bio-dark);
+  color: #aaa;
+  border-top: 3px solid var(--bio-accent);
+}
+
+/* Utility */
+.text-accent { color: var(--bio-accent); }
+.text-ugr    { color: var(--ugr-red); }
+.logo-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
