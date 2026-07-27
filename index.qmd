@@ -14,13 +14,15 @@ Grupo de Investigación Cuantitativa en Biociencias (Biomatemáticas, Bioestadí
 
 ::: {.tagline}
 Matemáticas · Estadística · Bioestadística · Epidemiología · Ciencia de Datos · Bioinformática
+[![](images/logo_ugr.png){width="180px"}](https://www.ugr.es)
 :::
 :::
 
 ---
 
 ::: {.logo-row}
-[![](images/logo_ugr.png){width="180px"}](https://www.ugr.es)
+
+[![](images/logos.png){width="280px"}](https://www.modelingnature.org)
 :::
 
 ---
@@ -29,7 +31,7 @@ Matemáticas · Estadística · Bioestadística · Epidemiología · Ciencia de 
 
 **BIO³** (BIOCUBO) es un grupo interdisciplinar de investigadores cuantitativos de la [Universidad de Granada](https://www.ugr.es) comprometidos con el avance de la ciencia a través de métodos matemáticos y estadísticos rigurosos aplicados a las biociencias, la salud pública y la epidemiología.
 
-El nombre **BIO³** refleja la intersección tridimensional de **Biología**, **Bioestadística** y **Biomatemáticas** — tres pilares que juntos forman el núcleo del grupo.
+El nombre **BIO³** refleja la intersección tridimensional de **Bioinformática**, **Bioestadística** y **Biomatemáticas** — tres pilares que juntos forman el núcleo del grupo.
 
 ---
 
