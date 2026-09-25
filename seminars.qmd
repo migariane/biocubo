@@ -37,8 +37,6 @@ Sesión de apertura del grupo BIO³ BIOCUBO. Se presentará la misión, los obje
 **Lugar:** Por confirmar · Universidad de Granada **Hora:** Por confirmar **Registro:** Abierto a toda la comunidad UGR
 ::::::
 
-:::
-
 ------------------------------------------------------------------------
 
 :::::: {.seminar-card .upcoming}
@@ -269,5 +267,3 @@ Ponente: [Nombre Apellido] · [Afiliación]
 
 Para proponer una ponencia o para más información, contacta con el grupo a través de la [Universidad de Granada](https://www.ugr.es).
 :::
-
-:::::::::::

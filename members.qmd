@@ -139,9 +139,8 @@ Actualmente, sus actividades docentes se centran principalmente en las licenciat
      =================================================== -->
 ```
 
-::: member-card
+:::::::: member-card
 ### [Juan Calvo Yagüe](https://www.modelingnature.org/juan-calvo) {#miembro5}
-:::
 
 ::: member-role
 Miembro Coordinador
@@ -165,7 +164,7 @@ Sus principales líneas de investigación se centran en el análisis de ecuacion
 [<i class="bi bi-journal-text"></i> Producción Científica UGR](https://produccioncientifica.ugr.es/investigadores/356547/detalle){.member-link}
 :::
 
-:::
+::::::::
 
 ```{=html}
 <!-- ===================================================
