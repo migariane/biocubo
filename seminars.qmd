@@ -21,7 +21,7 @@ Los seminarios de BIO³ se celebran **trimestralmente** y están abiertos a toda
 
 :::::: {.seminar-card .upcoming}
 ::: seminar-date
-Junio 2026 · Trimestre II · 2026
+Junio 2026 · Trimestre II
 :::
 
 ### Sesión I: Inferencia Causal Conformal en Bioestadística [Próximamente]{.badge-upcoming}
@@ -47,7 +47,7 @@ Sesión de apertura del grupo BIO³ BIOCUBO. Se presentará la misión, los obje
 
 :::::: {.seminar-card .upcoming}
 ::: seminar-date
-Septiembre 2026 · Trimestre III · 2026
+Septiembre 2026 · Trimestre III
 :::
 
 ### Modelos Matemáticos en Epidemiología de Enfermedades Infecciosas [Próximamente]{.badge-upcoming}
@@ -71,7 +71,7 @@ Segunda sesión del ciclo BIO³. Se abordarán los fundamentos de los modelos co
 
 :::::: {.seminar-card .upcoming}
 ::: seminar-date
-Diciembre 2026 · Trimestre IV · 2026
+Diciembre 2026 · Trimestre IV
 :::
 
 ### Análisis de Datos Ómicos: del Genoma al Fenotipo [Próximamente]{.badge-upcoming}
@@ -95,7 +95,7 @@ Tercera sesión del ciclo anual. Introducción al análisis estadístico de dato
 
 :::::: {.seminar-card .past}
 ::: seminar-date
-Febrero 2025 · Trimestre I · 2025
+Febrero 2025 · Trimestre I
 :::
 
 ### Tutorial de Inferencia Causal [13-2-2025]{.badge-date}
@@ -117,7 +117,7 @@ Este tutorial aborda el desafío del sesgo de confusión en estudios observacion
 
 :::::: {.seminar-card .past}
 ::: seminar-date
-Febrero 2025 · Trimestre I · 2025
+Febrero 2025 · Trimestre I
 :::
 
 ### La Forma de una ola epidémica [13-2-2025]{.badge-date}
@@ -135,7 +135,7 @@ Se presenta un novedoso marco matemático basado en el modelo de Kermack-McKendr
 
 :::::: {.seminar-card .past}
 ::: seminar-date
-Diciembre 2024 · Trimestre II · 2024
+Diciembre 2024 · Trimestre II
 :::
 
 ### Desarrollo de estándares de crecimiento fetal de la población de Granada [17-12-2024]{.badge-date}
@@ -149,7 +149,7 @@ Ponente: José Alejandro Ávila · Hospital Clínico San Cecilio
 
 :::::: {.seminar-card .past}
 ::: seminar-date
-Noviembre 2024 · Trimestre II · 2024
+Noviembre 2024 · Trimestre II
 :::
 
 ### COVID-19 y Causalidad [17-11-2024]{.badge-date}
@@ -163,7 +163,7 @@ Ponente: Cristóbal M. Rodríguez Leal · Facultad de Estudios Estadísticos, UC
 
 :::::: {.seminar-card .past}
 ::: seminar-date
-Septiembre 2024 · Trimestre I · 2024
+Septiembre 2024 · Trimestre I
 :::
 
 ### Transcriptional control modelling in genetics [12-9-2024]{.badge-date}
@@ -177,7 +177,7 @@ Ponente: Oscar Sánchez · Departamento de Matemática Aplicada, UGR
 
 :::::: {.seminar-card .past}
 ::: seminar-date
-Septiembre 2024 · Trimestre I · 2024
+Septiembre 2024 · Trimestre I
 :::
 
 ### Líneas de Investigación en la Cohorte GRAMO [12-9-2024]{.badge-date}
@@ -191,7 +191,7 @@ Ponente: Juan Pedro Arrebola · Departamento de Medicina Preventiva y Salud Púb
 
 :::::: {.seminar-card .past}
 ::: seminar-date
-Septiembre 2024 · Trimestre I · 2024
+Septiembre 2024 · Trimestre I
 :::
 
 ### Presentación del seminario BIO3 y Redes KAN [12-9-2024]{.badge-date}

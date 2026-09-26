@@ -1,39 +1,55 @@
-/* ===== BIO³ BIOCUBO — Academic Styles · White & Blue ===== */
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Inter:wght@400;500;600;700&display=swap');
+
+/* ===== BIO³ BIOCUBO — Academic Display System =====
+   Type: Newsreader (display serif) + Inter (body sans)
+   Signature: the "cubed" three-axis motif of BIO³
+   ==================================================== */
 
 :root {
-  --navy:        #003366;   /* Deep institutional navy */
-  --blue:        #0055a5;   /* Primary blue */
-  --blue-mid:    #1a6fc4;   /* Medium blue (hover/links) */
-  --blue-tint:   #eef4fb;   /* Very light blue background */
-  --blue-border: #c8d8ec;   /* Light blue border */
-  --gold:        #b8960c;   /* Subtle gold accent (from UGR crest) */
-  --slate:       #2c3e50;   /* Dark slate for headings */
-  --off-white:   #f8f9fc;   /* Near-white background */
-  --border:      #dde3ed;   /* Neutral border */
-  --text:        #1f2933;   /* Body text */
-  --text-muted:  #5c6b7a;   /* Secondary text */
+  --ink:        #16263d;   /* Deep blue-ink for text */
+  --navy:       #0c2544;   /* Institutional navy */
+  --navy-2:     #124076;   /* Lifted navy */
+  --blue:       #1d5fb0;   /* Primary blue */
+  --blue-2:     #2e7dd6;   /* Bright blue (hover/links) */
+  --sky:        #eaf2fb;   /* Light blue tint */
+  --sky-border: #c9dbef;   /* Light blue border */
+  --gold:       #c9a227;   /* UGR crest gold */
+  --gold-tint:  #faf4e2;   /* Gold tint */
+  --paper:      #fbfcfe;   /* Near-white with blue cast */
+  --border:     #dfe6ef;   /* Neutral border */
+  --muted:      #5c6b7d;   /* Secondary text */
+
+  --serif: "Newsreader", "Georgia", "Times New Roman", serif;
+  --sans:  "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 /* ── Base typography ────────────────────────── */
 body {
+  font-family: var(--sans);
   font-size: 1rem;
-  line-height: 1.7;
-  color: var(--text);
+  line-height: 1.72;
+  color: var(--ink);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--serif);
+  font-weight: 600;
+  color: var(--navy);
+  letter-spacing: -0.005em;
+}
 [id] {
-  scroll-margin-top: 5.5rem;   /* fixed navbar clearance for anchor jumps */
+  scroll-margin-top: 5.5rem;
 }
 :where(a):focus-visible {
-  outline: 3px solid var(--blue-mid);
+  outline: 3px solid var(--blue-2);
   outline-offset: 2px;
   border-radius: 2px;
 }
 hr {
   border: 0;
   border-top: 1px solid var(--border);
-  margin: 2.4rem 0;
+  margin: 2.6rem 0;
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
@@ -48,50 +64,115 @@ hr {
 .navbar {
   background: var(--navy) !important;
   border-bottom: 3px solid var(--gold);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.04) inset;
+}
+.navbar-brand {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.18rem;
+  letter-spacing: 0.02em;
 }
 .navbar-brand, .navbar .nav-link {
-  color: rgba(255,255,255,0.92) !important;
+  color: rgba(255, 255, 255, 0.92) !important;
   font-weight: 500;
 }
+.navbar .nav-link {
+  font-family: var(--sans);
+  font-size: 0.93rem;
+}
 .navbar .nav-link:hover {
-  color: white !important;
+  color: #fff !important;
   text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 /* ── Hero banner ─────────────────────────────── */
 .hero-banner {
-  background: linear-gradient(160deg, var(--navy) 0%, #004a94 70%, var(--blue) 100%);
-  color: white;
-  padding: clamp(2.4rem, 6vw, 3.5rem) clamp(1rem, 5vw, 2rem) clamp(2rem, 5vw, 3rem);
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(160deg, var(--navy) 0%, var(--navy-2) 52%, #17549e 100%);
+  color: #fff;
+  padding: clamp(2.6rem, 7vw, 4rem) clamp(1rem, 5vw, 2rem) clamp(2.4rem, 6vw, 3.6rem);
   text-align: center;
   border-bottom: 4px solid var(--gold);
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.75rem;
+}
+/* graph-paper grid — the mathematical ground of the group */
+.hero-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px);
+  background-size: 26px 26px;
+  pointer-events: none;
+}
+/* soft depth glow from below */
+.hero-banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 70% 60% at 50% 115%, rgba(46, 125, 214, 0.4), transparent 62%);
+  pointer-events: none;
+}
+.hero-banner > * {
+  position: relative;
+  z-index: 1;
+}
+.hero-kicker {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.66);
+  margin-bottom: 1.1rem;
+}
+.hero-banner img {
+  display: inline-block;
+  margin-bottom: 1.1rem;
 }
 .hero-banner h1 {
-  font-size: clamp(1.9rem, 6vw, 2.8rem);
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: clamp(2.4rem, 7vw, 3.7rem);
+  font-variation-settings: "opsz" 72;
+  letter-spacing: -0.015em;
+  line-height: 1.08;
+  margin: 0 auto 0.75rem;
+  color: #fff;
+}
+.hero-banner h1 .cube {
+  color: var(--gold);
   font-weight: 700;
-  letter-spacing: 0.5px;
-  line-height: 1.15;
-  margin-bottom: 0.6rem;
 }
 .hero-banner .subtitle {
-  font-size: clamp(0.95rem, 2.2vw, 1.08rem);
-  line-height: 1.55;
-  opacity: 0.94;
-  margin-bottom: 1rem;
+  font-family: var(--serif);
+  font-size: clamp(1.05rem, 2.4vw, 1.28rem);
   font-weight: 400;
-  max-width: 46rem;
+  line-height: 1.55;
+  opacity: 0.95;
+  margin-bottom: 1rem;
+  max-width: 48rem;
   margin-left: auto;
   margin-right: auto;
 }
 .hero-banner .tagline {
-  font-size: clamp(0.82rem, 1.8vw, 0.92rem);
+  font-family: var(--sans);
+  font-size: clamp(0.8rem, 1.8vw, 0.9rem);
   line-height: 1.9;
-  opacity: 0.78;
-  font-style: italic;
-  letter-spacing: 0.3px;
-  max-width: 52rem;
+  opacity: 0.74;
+  letter-spacing: 0.04em;
+  max-width: 54rem;
   margin-inline: auto;
+}
+.hero-banner .tagline img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.9rem;
+  margin-bottom: 0;
+  opacity: 0.92;
 }
 
 /* ── UGR logo row ─────────────────────────────── */
@@ -114,10 +195,10 @@ hr {
 h2.section-title {
   color: var(--navy);
   font-weight: 600;
-  font-size: 1.25rem;
-  margin-top: 2.4rem;
-  margin-bottom: 1.15rem;
-  padding-bottom: 0.5rem;
+  font-size: 1.45rem;
+  margin-top: 2.6rem;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.55rem;
   border-bottom: 1px solid var(--border);
   position: relative;
 }
@@ -126,82 +207,84 @@ h2.section-title::after {
   position: absolute;
   left: 0;
   bottom: -1px;
-  width: 3rem;
+  width: 3.25rem;
   height: 2px;
   background: var(--gold);
 }
 
 /* ── Member cards ─────────────────────────────── */
 .member-card {
-  background: white;
+  background: #fff;
   border: 1px solid var(--border);
   border-radius: 0.35rem;
-  padding: 1.4rem;
+  padding: 1.5rem;
   margin-bottom: 1.4rem;
-  box-shadow: 0 1px 3px rgba(0, 50, 120, 0.05);
+  box-shadow: 0 1px 3px rgba(12, 37, 68, 0.05);
   transition: box-shadow 0.2s, border-color 0.2s;
 }
 .member-card:hover {
-  border-color: var(--blue-border);
-  box-shadow: 0 4px 14px rgba(0, 50, 120, 0.1);
+  border-color: var(--sky-border);
+  box-shadow: 0 6px 18px rgba(12, 37, 68, 0.09);
 }
 .member-card h3 {
   margin-top: 0;
-  color: var(--slate);
-  font-size: 1.1rem;
+  color: var(--navy);
+  font-size: 1.22rem;
   font-weight: 600;
+  line-height: 1.3;
 }
 .member-card h3 a {
   color: var(--navy);
   text-decoration: none;
 }
 .member-card h3 a:hover {
-  color: var(--blue-mid);
+  color: var(--blue);
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 .member-role {
-  font-size: 0.80rem;
+  font-size: 0.78rem;
   font-weight: 700;
   color: var(--blue);
   text-transform: uppercase;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.09em;
   margin-bottom: 0.3rem;
 }
 .member-dept {
   font-size: 0.84rem;
-  color: var(--text-muted);
+  color: var(--muted);
   margin-bottom: 0.6rem;
   font-style: italic;
 }
 .member-bio {
   font-size: 0.91rem;
-  color: var(--text);
-  line-height: 1.62;
+  color: var(--ink);
+  line-height: 1.65;
 }
 .member-tags {
-  margin-top: 0.75rem;
+  margin-top: 0.8rem;
 }
 .tag {
   display: inline-block;
-  background: var(--blue-tint);
-  color: var(--navy);
-  border: 1px solid var(--blue-border);
+  background: var(--sky);
+  color: var(--navy-2);
+  border: 1px solid var(--sky-border);
   border-radius: 3px;
   padding: 2px 9px;
-  font-size: 0.75rem;
+  font-size: 0.74rem;
   margin: 2px 3px 2px 0;
   font-weight: 500;
 }
 
 /* ── Member links ─────────────────────────────── */
 .member-links {
-  margin-top: 0.75rem;
-  padding-top: 0.6rem;
+  margin-top: 0.8rem;
+  padding-top: 0.65rem;
   border-top: 1px solid var(--border);
 }
 .member-link {
   display: inline-block;
-  font-size: 0.80rem;
+  font-size: 0.8rem;
   font-weight: 500;
   color: var(--blue) !important;
   text-decoration: none !important;
@@ -214,31 +297,33 @@ h2.section-title::after {
 
 /* ── Seminar cards ────────────────────────────── */
 .seminar-card {
-  background: white;
+  background: #fff;
   border: 1px solid var(--border);
   border-radius: 0.35rem;
-  padding: 1.2rem 1.4rem;
+  padding: 1.3rem 1.5rem;
   margin-bottom: 1.2rem;
-  box-shadow: 0 1px 3px rgba(0, 50, 120, 0.04);
+  box-shadow: 0 1px 3px rgba(12, 37, 68, 0.04);
   transition: border-color 0.2s, box-shadow 0.2s;
 }
 .seminar-card.upcoming {
-  background: #fdfaf2;
-  border-color: #e6dcb8;
-  box-shadow: 0 1px 5px rgba(184, 150, 12, 0.12);
+  background: var(--gold-tint);
+  border-color: #e7dcb6;
+  box-shadow: 0 1px 6px rgba(201, 162, 39, 0.12);
 }
 .seminar-date {
-  font-size: 0.76rem;
+  font-size: 0.74rem;
   font-weight: 700;
-  color: var(--text-muted);
+  color: var(--muted);
   text-transform: uppercase;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.09em;
+  font-variant-numeric: tabular-nums;
 }
 .seminar-card h3 {
-  margin: 0.3rem 0;
-  color: var(--slate);
-  font-size: 1.02rem;
+  margin: 0.35rem 0;
+  color: var(--navy);
+  font-size: 1.12rem;
   font-weight: 600;
+  line-height: 1.35;
 }
 .seminar-speaker {
   font-size: 0.88rem;
@@ -248,17 +333,17 @@ h2.section-title::after {
 }
 .seminar-abstract {
   font-size: 0.87rem;
-  color: #444;
+  color: #39424d;
   margin-bottom: 0.7rem;
-  line-height: 1.58;
+  line-height: 1.6;
 }
 .btn-video {
   display: inline-block;
   background: var(--blue);
-  color: white !important;
+  color: #fff !important;
   padding: 4px 14px;
   border-radius: 3px;
-  font-size: 0.80rem;
+  font-size: 0.8rem;
   text-decoration: none !important;
   margin-right: 8px;
   font-weight: 500;
@@ -271,14 +356,14 @@ h2.section-title::after {
   background: #fef9e7;
   color: #7a5c00;
   border: 1px solid var(--gold);
-  font-size: 0.68rem;
+  font-size: 0.67rem;
   font-weight: 700;
   padding: 1px 9px;
   border-radius: 3px;
   margin-left: 8px;
   vertical-align: middle;
   text-transform: uppercase;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.07em;
 }
 
 /* ── Disciplines grid ─────────────────────────── */
@@ -289,18 +374,23 @@ h2.section-title::after {
   margin: 1.5rem 0;
 }
 .discipline-item {
-  background: white;
-  border: 1px solid var(--blue-border);
+  background: #fff;
+  border: 1px solid var(--sky-border);
   border-top: 2px solid var(--blue);
-  border-radius: 0.2rem;
-  padding: 1.1rem 0.75rem;
+  border-radius: 0.25rem;
+  padding: 1.15rem 0.75rem;
   text-align: center;
   font-size: 0.88rem;
   font-weight: 600;
   color: var(--navy);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.discipline-item:hover {
+  border-color: var(--blue-2);
+  box-shadow: 0 4px 12px rgba(12, 37, 68, 0.07);
 }
 .discipline-item .icon {
-  font-size: 1.6rem;
+  font-size: 1.55rem;
   display: block;
   margin-bottom: 0.4rem;
   color: var(--blue);
@@ -309,7 +399,7 @@ h2.section-title::after {
 /* ── Page footer ──────────────────────────────── */
 footer.footer {
   background: var(--navy) !important;
-  color: #b0bec8;
+  color: #aebccb;
   border-top: 3px solid var(--gold);
   font-size: 0.85rem;
   padding-top: 1.3rem;
@@ -330,12 +420,8 @@ footer.footer .nav-footer > div {
 footer.footer .nav-footer-center { text-align: center; }
 footer.footer .nav-footer-right { text-align: right; }
 footer.footer p { margin: 0.2rem 0; }
-footer.footer a {
-  color: #c8d8ec;
-}
-footer.footer a:hover {
-  color: white;
-}
+footer.footer a { color: #c9dbef; }
+footer.footer a:hover { color: #fff; }
 @media (max-width: 768px) {
   footer.footer .nav-footer {
     justify-content: center;
@@ -350,7 +436,7 @@ footer.footer a:hover {
   padding: 2rem 1rem 1rem;
   border-top: 1px solid var(--border);
   margin-top: 2rem;
-  color: var(--text-muted);
+  color: var(--muted);
   font-size: 0.85rem;
 }
 .institutional-footer img {
@@ -361,7 +447,7 @@ footer.footer a:hover {
 .text-navy  { color: var(--navy); }
 .text-blue  { color: var(--blue); }
 .text-gold  { color: var(--gold); }
-.text-muted { color: var(--text-muted); }
+.text-muted { color: var(--muted); }
 
 /* ── Readable measure on the full-width page ── */
 main.column-page > *:not(.hero-banner) {
@@ -401,7 +487,7 @@ main.column-page > *:not(.hero-banner) {
   object-fit: cover;
   border: 1px solid var(--border);
   border-radius: 0.25rem;
-  box-shadow: 0 1px 4px rgba(0, 50, 120, 0.07);
+  box-shadow: 0 1px 4px rgba(12, 37, 68, 0.07);
 }
 
 /* ── Seminar cards: upcoming vs past ─────────── */
@@ -410,15 +496,12 @@ main.column-page > *:not(.hero-banner) {
   box-shadow: none;
 }
 .seminar-card.past:hover {
-  border-color: var(--blue-border);
-  box-shadow: 0 2px 8px rgba(0, 50, 120, 0.07);
-}
-.seminar-card h3 {
-  line-height: 1.35;
+  border-color: var(--sky-border);
+  box-shadow: 0 2px 8px rgba(12, 37, 68, 0.07);
 }
 .seminar-meta {
   font-size: 0.82rem;
-  color: var(--text-muted);
+  color: var(--muted);
   border-top: 1px dashed var(--border);
   padding-top: 0.65rem;
   margin-top: 0.15rem;
@@ -428,17 +511,17 @@ main.column-page > *:not(.hero-banner) {
 }
 .badge-date {
   display: inline-block;
-  background: var(--blue-tint);
-  color: var(--navy);
-  border: 1px solid var(--blue-border);
-  font-size: 0.68rem;
+  background: var(--sky);
+  color: var(--navy-2);
+  border: 1px solid var(--sky-border);
+  font-size: 0.67rem;
   font-weight: 700;
   padding: 1px 9px;
   border-radius: 3px;
   margin-left: 8px;
   vertical-align: middle;
   text-transform: uppercase;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.07em;
   font-variant-numeric: tabular-nums;
 }
 
@@ -450,11 +533,11 @@ main.column-page > *:not(.hero-banner) {
   margin-top: 0.5rem;
 }
 .contact-item {
-  background: var(--off-white);
+  background: var(--paper);
   border: 1px solid var(--border);
   border-top: 2px solid var(--blue);
   border-radius: 0.25rem;
-  padding: 0.9rem 1.1rem;
+  padding: 0.95rem 1.15rem;
 }
 .contact-item p {
   margin: 0.2rem 0 0;
@@ -463,11 +546,11 @@ main.column-page > *:not(.hero-banner) {
 .contact-item p:first-child {
   margin-top: 0;
   margin-bottom: 0.35rem;
-  font-size: 0.75rem;
+  font-size: 0.74rem;
   font-weight: 700;
   color: var(--blue);
   text-transform: uppercase;
-  letter-spacing: 0.7px;
+  letter-spacing: 0.08em;
 }
 
 /* ── Data tables ─────────────────────────────── */
@@ -480,51 +563,31 @@ table.table {
 table.table thead tr th {
   background: var(--navy);
   color: #fff;
-  font-size: 0.78rem;
+  font-size: 0.77rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.07em;
   border-color: rgba(255, 255, 255, 0.18);
   padding: 0.6rem 0.85rem;
 }
 table.table tbody tr:nth-child(odd) > * {
-  background: var(--off-white);
+  background: var(--paper);
 }
 table.table tbody tr:hover > * {
-  background: var(--blue-tint);
+  background: var(--sky);
 }
 table.table tbody tr > * {
   padding: 0.6rem 0.85rem;
   vertical-align: top;
   border-color: var(--border);
-  color: var(--text);
+  color: var(--ink);
 }
 table.table caption {
-  color: var(--text-muted);
+  color: var(--muted);
   font-size: 0.82rem;
   caption-side: top;
   text-align: left;
   padding-bottom: 0.4rem;
-}
-
-/* ── Prev / next page navigation ─────────────── */
-.page-navigation {
-  border-top: 1px solid var(--border);
-  margin-top: 2.5rem;
-  padding-top: 0.9rem;
-}
-.page-navigation .nav-link {
-  color: var(--blue);
-  font-size: 0.88rem;
-}
-.page-navigation .nav-link:hover {
-  color: var(--navy);
-}
-.page-navigation .page-navigation-direction {
-  color: var(--text-muted);
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.7px;
 }
 
 /* ── Small screens ───────────────────────────── */
@@ -535,8 +598,11 @@ table.table caption {
     padding: 1.05rem;
   }
   h2.section-title {
-    font-size: 1.12rem;
-    margin-top: 1.8rem;
+    font-size: 1.28rem;
+    margin-top: 2rem;
+  }
+  .hero-banner h1 {
+    font-size: 2.1rem;
   }
   .badge-upcoming,
   .badge-date {

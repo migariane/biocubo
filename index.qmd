@@ -4,9 +4,13 @@ page-layout: full
 ---
 
 ::: {.hero-banner}
+::: {.hero-kicker}
+Universidad de Granada · Grupo de Investigación
+:::
+
 ![](images/biocubo_logo.svg){width="110px" style="margin-bottom:1rem;" alt="Logotipo de BIO³ BIOCUBO"}
 
-# BIO³ · BIOCUBO
+# BIO<span class="cube">³</span> · BIOCUBO
 
 ::: {.subtitle}
 Grupo de Investigación Cuantitativa en Biociencias (Biomatemáticas, Bioestadística y Bioinformática), Epidemiología y Salud Pública
