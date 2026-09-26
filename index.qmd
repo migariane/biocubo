@@ -4,7 +4,7 @@ page-layout: full
 ---
 
 ::: {.hero-banner}
-![](images/biocubo_logo.svg){width="110px" style="margin-bottom:1rem;"}
+![](images/biocubo_logo.svg){width="110px" style="margin-bottom:1rem;" alt="Logotipo de BIO³ BIOCUBO"}
 
 # BIO³ · BIOCUBO
 
@@ -14,7 +14,7 @@ Grupo de Investigación Cuantitativa en Biociencias (Biomatemáticas, Bioestadí
 
 ::: {.tagline}
 Matemáticas · Estadística · Bioestadística · Epidemiología · Ciencia de Datos · Bioinformática
-[![](images/logo_ugr.png){width="180px"}](https://www.ugr.es)
+[![](images/logo_ugr.png){width="180px" alt="Escudo de la Universidad de Granada"}](https://www.ugr.es)
 :::
 :::
 
@@ -22,7 +22,7 @@ Matemáticas · Estadística · Bioestadística · Epidemiología · Ciencia de 
 
 ::: {.logo-row}
 
-[![](images/logos.png){width="280px"}](https://www.modelingnature.org)
+[![](images/logos.png){width="280px" alt="Logotipos de BIO³ y del proyecto Modeling Nature"}](https://www.modelingnature.org)
 :::
 
 ---
@@ -31,7 +31,7 @@ Matemáticas · Estadística · Bioestadística · Epidemiología · Ciencia de 
 
 **BIO³** (BIOCUBO) es un grupo interdisciplinar de investigadores cuantitativos de la [Universidad de Granada](https://www.ugr.es) comprometidos con el avance de la ciencia a través de métodos matemáticos y estadísticos rigurosos aplicados a las biociencias, la salud pública y la epidemiología.
 
-El nombre **BIO³** refleja la intersección tridimensional de **Bioinformática**, **Bioestadística** y **Biomatemáticas** — tres pilares que juntos forman el núcleo del grupo.
+El nombre **BIO³** refleja la intersección tridimensional de **Bioinformática**, **Bioestadística** y **Biomatemáticas**, el núcleo del grupo.
 
 ---
 
@@ -70,9 +70,9 @@ Bioinformática
 
 BIO³ nace con tres objetivos fundacionales:
 
-1. **Investigar** — desarrollar y aplicar métodos cuantitativos avanzados en biociencias, epidemiología y salud pública.
-2. **Divulgar** — organizar seminarios trimestrales abiertos a la comunidad científica y académica.
-3. **Colaborar** — construir puentes entre disciplinas y grupos dentro y fuera de la UGR.
+1.  **Investigar:** desarrollar y aplicar métodos cuantitativos avanzados en biociencias, epidemiología y salud pública.
+2.  **Divulgar:** organizar seminarios trimestrales abiertos a la comunidad científica y académica.
+3.  **Colaborar:** construir puentes entre disciplinas y grupos dentro y fuera de la UGR.
 
 ---
 
@@ -83,10 +83,10 @@ BIO³ nace con tres objetivos fundacionales:
 Junio 2026 · Trimestre II
 :::
 
-### Inferencia Causal Conformal en Bioestadística [Próximamente]{.badge-upcoming}
+### Sesión I: Inferencia Causal Conformal en Bioestadística [Próximamente]{.badge-upcoming}
 
 ::: {.seminar-speaker}
-Ponentes: Por confirmar · BIO³ BIOCUBO — UGR
+Ponente: Por confirmar · BIO³ BIOCUBO · UGR
 :::
 
 ::: {.seminar-abstract}

@@ -1,70 +1,76 @@
 ---
 title: "Sobre BIO³ BIOCUBO"
-subtitle: "Quiénes somos, qué hacemos y cómo colaborar"
+subtitle: "Quiénes somos, qué hacemos y cómo colaborar"
 ---
 
 ## El Grupo {.section-title}
 
-**BIO³ BIOCUBO** es un grupo de investigación interdisciplinar radicado en la [Universidad de Granada](https://www.ugr.es) que reúne a matemáticos del grupo FQM-0316, estadísticos, Bioestadísticos del grupo FQM-235, epidemiólogos y otros perfiles cuantitativos con un objetivo común: aplicar métodos rigurosos al avance de las biociencias, la epidemiolgía y la salud pública.
+**BIO³ BIOCUBO** es un grupo de investigación interdisciplinar radicado en la [Universidad de Granada](https://www.ugr.es) que reúne a matemáticos del grupo FQM-0316, estadísticos, Bioestadísticos del grupo FQM-235, epidemiólogos y otros perfiles cuantitativos con un objetivo común: aplicar métodos rigurosos al avance de las biociencias, la epidemiología y la salud pública.
 
-El nombre **BIO³** expresa la idea de elevar la biociencia al cubo — multiplicar su potencial a través de la intersección de tres dimensiones cuantitativas:
+El nombre **BIO³** expresa la idea de elevar la biociencia al cubo, multiplicando su potencial a través de la intersección de tres dimensiones cuantitativas:
 
-$$\text{BIO}^3 = \text{Bioinformática} \times \text{Bioestad\'istica} \times \text{Biomatemáticas}$$
-
-------------------------------------------------------------------------
-
-## Líneas de Investigación {.section-title}
-
--   **Inferencia causal** — métodos semiparamétricos, *targeted learning*, causalidad conformal
--   **Modelos matemáticos** — dinámica de enfermedades infecciosas, modelos poblacionales
--   **Estadística computacional** — métodos de Monte Carlo, inferencia bayesiana, *machine learning*
--   **Bioinformática y ómicas** — análisis genómico, transcriptómico y proteómico
--   **Epidemiología cuantitativa** — farmacoepidemiología, estudios observacionales, grandes bases de datos
--   **Bioestadística clínica** — ensayos clínicos, datos longitudinales, análisis de supervivencia
--   **Biomatemáticas**—Ecuaciones de Transporte, Mecánica de Fluidos, Ecuaciones Estocásticas, Modelización génica, Biomatemáticas. Matemáticas y ciencias de la vida: modelos de desarrollo.Biomatemáticas. Matemáticas y ciencias de la vida: modelos de desarrollo.
+$$\text{BIO}^3 = \text{Bioinformática} \times \text{Bioestad\'istica} \times \text{Biomatemáticas}$$
 
 ------------------------------------------------------------------------
 
-## Cómo Colaborar {.section-title}
+## Líneas de Investigación {.section-title}
 
-BIO³ está abierto a:
+-   **Inferencia causal:** métodos semiparamétricos, *targeted learning*, causalidad conformal
+-   **Modelos matemáticos:** dinámica de enfermedades infecciosas, modelos poblacionales
+-   **Estadística computacional:** métodos de Monte Carlo, inferencia bayesiana, *machine learning*
+-   **Bioinformática y ómicas:** análisis genómico, transcriptómico y proteómico
+-   **Epidemiología cuantitativa:** farmacoepidemiología, estudios observacionales, grandes bases de datos
+-   **Bioestadística clínica:** ensayos clínicos, datos longitudinales, análisis de supervivencia
+-   **Biomatemáticas:** Ecuaciones de Transporte, Mecánica de Fluidos, Ecuaciones Estocásticas, Modelización génica. Matemáticas y ciencias de la vida: modelos de desarrollo.
 
--   **Investigadores de la UGR** de cualquier departamento con interés en métodos cuantitativos
+------------------------------------------------------------------------
+
+## Cómo Colaborar {.section-title}
+
+BIO³ está abierto a:
+
+-   **Investigadores de la UGR** de cualquier departamento con interés en métodos cuantitativos
 -   **Investigadores externos** que quieran colaborar o impartir un seminario
--   **Estudiantes de grado, máster y doctorado** interesados en formación cuantitativa avanzada
--   **Clínicos y profesionales de la salud** que busquen apoyo metodológico
+-   **Estudiantes de grado, máster y doctorado** interesados en formación cuantitativa avanzada
+-   **Clínicos y profesionales de la salud** que busquen apoyo metodológico
 
-Para unirte o colaborar con el grupo, contacta con el coordinador a través del [portal de la Universidad de Granada](https://www.ugr.es).
+Para unirte o colaborar con el grupo, contacta con el coordinador a través del [portal de la Universidad de Granada](https://www.ugr.es).
 
 ------------------------------------------------------------------------
 
-## Afiliación Institucional {.section-title}
+## Afiliación Institucional {.section-title}
 
 ::: logo-row
-[![Universidad de Granada](images/logo_ugr.png){width="180px"}](https://www.ugr.es)
+[![Universidad de Granada](images/logo_ugr.png){width="180px" alt="Escudo de la Universidad de Granada"}](https://www.ugr.es)
 :::
 
-BIO³ BIOCUBO está vinculado a la **Universidad de Granada** y opera en colaboración con:
+BIO³ BIOCUBO está vinculado a la **Universidad de Granada** y opera en colaboración con:
 
 -   Facultad de Medicina
--   Facultad de Ciencias (Departamentos de Estadística y Matemática Aplicada)
--   Escuela Andaluza de Salud Pública (EASP)
--   Instituto de Investigación Biosanitaria de Granada (ibs.GRANADA)
+-   Facultad de Ciencias (Departamentos de Estadística y Matemática Aplicada)
+-   Escuela Andaluza de Salud Pública (EASP)
+-   Instituto de Investigación Biosanitaria de Granada (ibs.GRANADA)
 
 ------------------------------------------------------------------------
 
 ## Contacto {.section-title}
 
--   **Coordinadores:** Juan Manuel Melchor Rodríguez, Miguel Angel Montero Alonso, Miguel Angel Luque-Fernández, Oscar Sánchez y Juan Calvo.
--   **Institución:** Universidad de Granada
--   **Web UGR:** [www.ugr.es](https://www.ugr.es)
+::: contact-grid
+::: contact-item
+**Coordinadores**
 
-## Suscríbete a la lista
+Juan Manuel Melchor Rodríguez · Miguel Ángel Montero Alonso · Miguel Ángel Luque-Fernández · Oscar Sánchez · Juan Calvo
+:::
 
-::: {#mc_embed_signup}
-<form action="https://TU_CODIGO.mailchimp.com/subscribe/post?u=XXXX&amp;id=YYYY" method="post" target="_blank">
+::: contact-item
+**Institución**
 
-<input type="email" name="EMAIL" placeholder="Tu correo" required> <input type="submit" value="Suscribirme">
+Universidad de Granada
+:::
 
-</form>
+::: contact-item
+**Web UGR**
+
+[www.ugr.es](https://www.ugr.es)
+:::
 :::

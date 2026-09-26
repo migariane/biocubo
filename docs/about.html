@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,10 +43,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f935b58d7db6d015de4bfd704a4fb1be.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-b99e6504dfe2dc4fafe78f3de8b764ef.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -56,7 +59,6 @@ ul.task-list li input[type="checkbox"] {
     "/",
     "s"
   ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -74,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -105,9 +107,10 @@ window.Quarto = {
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="BIO³ BIOCUBO">
-<meta property="og:description" content="Matemáticos, Estadísticos, Bioestadísticos y Epidemiólogos — UGR">
+<meta property="og:description" content="Matemáticos, Estadísticos, Bioestadísticos y Epidemiólogos · UGR">
 <meta property="og:image" content="images/logo_ugr.png">
 <meta property="og:site_name" content="BIO³ · BIOCUBO">
+<meta property="og:image:alt" content="Escudo de la Universidad de Granada">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -168,7 +171,7 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Sobre BIO³ BIOCUBO</h1>
-<p class="subtitle lead">Quiénes somos, qué hacemos y cómo colaborar</p>
+<p class="subtitle lead">Quiénes somos, qué hacemos y cómo colaborar</p>
 </div>
 
 
@@ -187,75 +190,76 @@ window.Quarto = {
 
 <section id="el-grupo" class="level2 section-title">
 <h2 class="section-title anchored" data-anchor-id="el-grupo">El Grupo</h2>
-<p><strong>BIO³ BIOCUBO</strong> es un grupo de investigación interdisciplinar radicado en la <a href="https://www.ugr.es">Universidad de Granada</a> que reúne a matemáticos del grupo FQM-0316, estadísticos, Bioestadísticos del grupo FQM-235, epidemiólogos y otros perfiles cuantitativos con un objetivo común: aplicar métodos rigurosos al avance de las biociencias, la epidemiolgía y la salud pública.</p>
-<p>El nombre <strong>BIO³</strong> expresa la idea de elevar la biociencia al cubo — multiplicar su potencial a través de la intersección de tres dimensiones cuantitativas:</p>
-<p><span class="math display">\[\text{BIO}^3 = \text{Bioinformática} \times \text{Bioestad\'istica} \times \text{Biomatemáticas}\]</span></p>
+<p><strong>BIO³ BIOCUBO</strong> es un grupo de investigación interdisciplinar radicado en la <a href="https://www.ugr.es">Universidad de Granada</a> que reúne a matemáticos del grupo FQM-0316, estadísticos, Bioestadísticos del grupo FQM-235, epidemiólogos y otros perfiles cuantitativos con un objetivo común: aplicar métodos rigurosos al avance de las biociencias, la epidemiología y la salud pública.</p>
+<p>El nombre <strong>BIO³</strong> expresa la idea de elevar la biociencia al cubo, multiplicando su potencial a través de la intersección de tres dimensiones cuantitativas:</p>
+<p><span class="math display">\[\text{BIO}^3 = \text{Bioinformática} \times \text{Bioestad\'istica} \times \text{Biomatemáticas}\]</span></p>
 <hr>
 </section>
-<section id="lineas-de-investigacion" class="level2 section-title">
-<h2 class="section-title anchored" data-anchor-id="lineas-de-investigacion">Líneas de Investigación</h2>
+<section id="líneas-de-investigación" class="level2 section-title">
+<h2 class="section-title anchored" data-anchor-id="líneas-de-investigación">Líneas de Investigación</h2>
 <ul>
-<li><strong>Inferencia causal</strong> — métodos semiparamétricos, <em>targeted learning</em>, causalidad conformal</li>
-<li><strong>Modelos matemáticos</strong> — dinámica de enfermedades infecciosas, modelos poblacionales</li>
-<li><strong>Estadística computacional</strong> — métodos de Monte Carlo, inferencia bayesiana, <em>machine learning</em></li>
-<li><strong>Bioinformática y ómicas</strong> — análisis genómico, transcriptómico y proteómico</li>
-<li><strong>Epidemiología cuantitativa</strong> — farmacoepidemiología, estudios observacionales, grandes bases de datos</li>
-<li><strong>Bioestadística clínica</strong> — ensayos clínicos, datos longitudinales, análisis de supervivencia</li>
-<li><strong>Biomatemáticas</strong>—Ecuaciones de Transporte, Mecánica de Fluidos, Ecuaciones Estocásticas, Modelización génica, Biomatemáticas. Matemáticas y ciencias de la vida: modelos de desarrollo.Biomatemáticas. Matemáticas y ciencias de la vida: modelos de desarrollo.</li>
+<li><strong>Inferencia causal:</strong> métodos semiparamétricos, <em>targeted learning</em>, causalidad conformal</li>
+<li><strong>Modelos matemáticos:</strong> dinámica de enfermedades infecciosas, modelos poblacionales</li>
+<li><strong>Estadística computacional:</strong> métodos de Monte Carlo, inferencia bayesiana, <em>machine learning</em></li>
+<li><strong>Bioinformática y ómicas:</strong> análisis genómico, transcriptómico y proteómico</li>
+<li><strong>Epidemiología cuantitativa:</strong> farmacoepidemiología, estudios observacionales, grandes bases de datos</li>
+<li><strong>Bioestadística clínica:</strong> ensayos clínicos, datos longitudinales, análisis de supervivencia</li>
+<li><strong>Biomatemáticas:</strong> Ecuaciones de Transporte, Mecánica de Fluidos, Ecuaciones Estocásticas, Modelización génica. Matemáticas y ciencias de la vida: modelos de desarrollo.</li>
 </ul>
 <hr>
 </section>
-<section id="como-colaborar" class="level2 section-title">
-<h2 class="section-title anchored" data-anchor-id="como-colaborar">Cómo Colaborar</h2>
-<p>BIO³ está abierto a:</p>
+<section id="cómo-colaborar" class="level2 section-title">
+<h2 class="section-title anchored" data-anchor-id="cómo-colaborar">Cómo Colaborar</h2>
+<p>BIO³ está abierto a:</p>
 <ul>
-<li><strong>Investigadores de la UGR</strong> de cualquier departamento con interés en métodos cuantitativos</li>
+<li><strong>Investigadores de la UGR</strong> de cualquier departamento con interés en métodos cuantitativos</li>
 <li><strong>Investigadores externos</strong> que quieran colaborar o impartir un seminario</li>
-<li><strong>Estudiantes de grado, máster y doctorado</strong> interesados en formación cuantitativa avanzada</li>
-<li><strong>Clínicos y profesionales de la salud</strong> que busquen apoyo metodológico</li>
+<li><strong>Estudiantes de grado, máster y doctorado</strong> interesados en formación cuantitativa avanzada</li>
+<li><strong>Clínicos y profesionales de la salud</strong> que busquen apoyo metodológico</li>
 </ul>
-<p>Para unirte o colaborar con el grupo, contacta con el coordinador a través del <a href="https://www.ugr.es">portal de la Universidad de Granada</a>.</p>
+<p>Para unirte o colaborar con el grupo, contacta con el coordinador a través del <a href="https://www.ugr.es">portal de la Universidad de Granada</a>.</p>
 <hr>
 </section>
-<section id="afiliacion-institucional" class="level2 section-title">
-<h2 class="section-title anchored" data-anchor-id="afiliacion-institucional">Afiliación Institucional</h2>
+<section id="afiliación-institucional" class="level2 section-title">
+<h2 class="section-title anchored" data-anchor-id="afiliación-institucional">Afiliación Institucional</h2>
 <div class="logo-row">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.ugr.es"><img src="images/logo_ugr.png" class="img-fluid figure-img" width="180"></a></p>
+<p><a href="https://www.ugr.es"><img src="images/logo_ugr.png" class="img-fluid figure-img" alt="Escudo de la Universidad de Granada" width="180"></a></p>
 <figcaption>Universidad de Granada</figcaption>
 </figure>
 </div>
 </div>
-<p>BIO³ BIOCUBO está vinculado a la <strong>Universidad de Granada</strong> y opera en colaboración con:</p>
+<p>BIO³ BIOCUBO está vinculado a la <strong>Universidad de Granada</strong> y opera en colaboración con:</p>
 <ul>
 <li>Facultad de Medicina</li>
-<li>Facultad de Ciencias (Departamentos de Estadística y Matemática Aplicada)</li>
-<li>Escuela Andaluza de Salud Pública (EASP)</li>
-<li>Instituto de Investigación Biosanitaria de Granada (ibs.GRANADA)</li>
+<li>Facultad de Ciencias (Departamentos de Estadística y Matemática Aplicada)</li>
+<li>Escuela Andaluza de Salud Pública (EASP)</li>
+<li>Instituto de Investigación Biosanitaria de Granada (ibs.GRANADA)</li>
 </ul>
 <hr>
 </section>
 <section id="contacto" class="level2 section-title">
 <h2 class="section-title anchored" data-anchor-id="contacto">Contacto</h2>
-<ul>
-<li><strong>Coordinadores:</strong> Juan Manuel Melchor Rodríguez, Miguel Angel Montero Alonso, Miguel Angel Luque-Fernández, Oscar Sánchez y Juan Calvo.</li>
-<li><strong>Institución:</strong> Universidad de Granada</li>
-<li><strong>Web UGR:</strong> <a href="https://www.ugr.es">www.ugr.es</a></li>
-</ul>
-</section>
-<section id="suscríbete-a-la-lista" class="level2">
-<h2 class="anchored" data-anchor-id="suscríbete-a-la-lista">Suscríbete a la lista</h2>
-<div id="mc_embed_signup">
-<form action="https://TU_CODIGO.mailchimp.com/subscribe/post?u=XXXX&amp;id=YYYY" method="post" target="_blank">
-<p><input type="email" name="EMAIL" placeholder="Tu correo" required=""> <input type="submit" value="Suscribirme"></p>
-</form>
+<div class="contact-grid">
+<div class="contact-item">
+<p><strong>Coordinadores</strong></p>
+<p>Juan Manuel Melchor Rodríguez · Miguel Ángel Montero Alonso · Miguel Ángel Luque-Fernández · Oscar Sánchez · Juan Calvo</p>
+</div>
+<div class="contact-item">
+<p><strong>Institución</strong></p>
+<p>Universidad de Granada</p>
+</div>
+<div class="contact-item">
+<p><strong>Web UGR</strong></p>
+<p><a href="https://www.ugr.es">www.ugr.es</a></p>
+</div>
 </div>
 
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
