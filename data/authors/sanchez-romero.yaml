@@ -1,0 +1,20 @@
+schema: hugoblox/author/v1
+slug: sanchez-romero
+name:
+  display: Óscar Sánchez Romero
+role: Miembro Coordinador
+bio: |
+  Profesor asociado del Departamento de Matemáticas Aplicadas (DMA) de la Universidad de Granada (UGR). Tras varios contratos y estancias en la Universidad Carlos III de Madrid y la UGR, en 2003 presentó su tesis doctoral, que abordaba modelos matemáticos derivados de la teoría de semiconductores y la dinámica gravitacional. Su investigación se centra en las ecuaciones diferenciales, su análisis y aplicaciones de modelización: ecuaciones diferenciales parciales hiperbólicas, sistemas dinámicos basados en modelos cuánticos y sistemas biológicos. Recientemente se ha centrado en herramientas matemáticas para el análisis de componentes galácticos y el modelado de procesos morfogenéticos en el desarrollo embrionario.
+affiliations:
+  - name: Departamento de Matemática Aplicada, Universidad de Granada
+    url: https://www.ugr.es
+links:
+  - icon: academicons/google-scholar
+    url: 'http://www.ugr.es/~ossanche/'
+    label: Página personal UGR
+interests:
+  - EDPs
+  - Modelización Biomatemática
+  - Ecuaciones evolutivas
+  - Modelización génica
+  - Python / FreeFem

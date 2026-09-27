@@ -1,0 +1,13 @@
+{
+  "id": "session-1790531884891",
+  "startedAt": "2026-09-27T17:58:04.891Z",
+  "cwd": "/private/tmp/biocubo-new",
+  "context": {},
+  "metrics": {
+    "edits": 0,
+    "commands": 0,
+    "tasks": 0,
+    "errors": 0
+  },
+  "restoredAt": "2026-09-27T18:05:48.553Z"
+}

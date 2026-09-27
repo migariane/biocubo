@@ -1,0 +1,19 @@
+schema: hugoblox/author/v1
+slug: calvo-yague
+name:
+  display: Juan Calvo Yagüe
+role: Miembro Coordinador
+bio: |
+  Profesor Asociado del Departamento de Matemática Aplicada de la Universidad de Granada (UGR). Se doctoró en Matemáticas por la UGR en 2010. Ha sido becario postdoctoral Juan de la Cierva en la Universitat Pompeu Fabra y en el Centre de Recerca Matemàtica. En 2016 recibió el Premio Antonio Valle al joven investigador (Sociedad Española de Matemática Aplicada). Sus principales líneas de investigación se centran en el análisis de ecuaciones diferenciales parciales (EDP) y sus aplicaciones, incluyendo ecuaciones parabólicas degeneradas y ondas viajeras singulares en sistemas biológicos, así como modelos de EDP en teoría cinética aplicados a Astrofísica y Biología.
+affiliations:
+  - name: Departamento de Matemática Aplicada, Universidad de Granada
+    url: https://www.ugr.es
+links:
+  - icon: academicons/google-scholar
+    url: 'https://www.modelingnature.org/juan-calvo'
+    label: Página personal
+interests:
+  - Modelos Matemáticos
+  - Biología Matemática
+  - EDPs
+  - MATLAB / Python

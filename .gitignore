@@ -1,9 +1,5 @@
-/.quarto/
-**/*.quarto_ipynb
-_site/
+public/
+resources/
+.hugo_build.lock
+node_modules/
 .DS_Store
-*.DS_Store
-.Rproj.user
-
-.Rhistory
-*.Rhistory

@@ -1,0 +1,20 @@
+schema: hugoblox/author/v1
+slug: luque-fernandez
+name:
+  display: Miguel Ángel Luque Fernández
+role: Miembro Coordinador
+bio: |
+  Matemático Aplicado (Estadística), Epidemiólogo y Bioestadístico con especialización en inferencia causal, métodos semiparamétricos y análisis de supervivencia. Su investigación combina métodos cuantitativos avanzados con preguntas clínicas y de salud pública de alto impacto. Profesor de Estadística en la Universidad de Granada, es también Profesor Asociado Honorario por la London School of Hygiene & Tropical Medicine y fue Postdoctoral Fellow en la Harvard T.H. Chan School of Public Health y la Harvard Medical School, instituciones con las que mantiene colaboraciones activas.
+affiliations:
+  - name: Departamento de Estadística e Investigación Operativa, Universidad de Granada
+    url: https://www.ugr.es
+links:
+  - icon: academicons/google-scholar
+    url: 'https://produccioncientifica.ugr.es/investigadores/356497/detalle'
+    label: Producción Científica UGR
+interests:
+  - Epidemiología
+  - Inferencia Causal
+  - Bioestadística
+  - Supervivencia
+  - R / Stata

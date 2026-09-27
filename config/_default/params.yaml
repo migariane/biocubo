@@ -1,0 +1,22 @@
+appearance:
+  theme_day: minimal
+  theme_night: minimal
+  font_size_base: 17
+  font: minimal
+  font_heading: minimal
+
+language:
+  navbar_title: BIO³ BIOCUBO
+
+params:
+  docs:
+    section_pager: true
+  highlight:
+    style: github-light
+  marketing:
+    analytics:
+      google_analytics_id: ''
+  search:
+    provider: wowchemy
+
+unsafe: true

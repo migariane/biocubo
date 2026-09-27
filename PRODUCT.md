@@ -20,19 +20,19 @@ An interdisciplinary UGR group that applies rigorous mathematical and statistica
 
 ## Operating Context
 
-Static Quarto website (`project.type: website`, output to `docs/`) published on GitHub Pages at https://migariane.github.io/biocubo/ from branch `main`, path `/docs`. Content is authored in Spanish in `.qmd` sources (`index.qmd`, `members.qmd`, `seminars.qmd`, `about.qmd`) with a single `styles.css` and `_quarto.yml`. Edits must render with `quarto render`.
+Static Hugo site using the Wowchemy/HugoBlox "academic-cv" theme, published on GitHub Pages at https://migariane.github.io/biocubo/ via GitHub Actions (`.github/workflows/deploy.yml`, Hugo 0.162+ extended). Content is authored in Spanish as Markdown in `content/es/` (home landing sections, `content/es/authors/` for group + members, `content/es/seminars/` for events). Edits build with `hugo --minify`.
 
 ## Capabilities and Constraints
 
-- Four static pages: Inicio, Miembros, Seminarios, Sobre el Grupo; navbar search overlay; back-to-top.
-- No backend, forms, CMS, or JS build step; only Quarto + Bootstrap + custom CSS.
+- Landing page composed of blocks: hero, biography, members grid, seminars collection, mission; plus a dedicated seminars listing page.
+- No backend, forms, or manual copy step; GitHub Actions builds and deploys `public/` automatically on push to `main`.
 - Content language: Spanish. Facts (names, roles, departments, seminar details) are fixed and must not be invented.
-- Photography exists in `images/` (seminar and group photos, member-less) and must be used as-is; no image generation in this environment.
+- Photography exists in `static/media/` (seminar and group photos, member-less) and must be used as-is; no image generation in this environment.
 
 ## Brand Commitments
 
-- Keep the `images/biocubo_logo.svg` cube logo (favicon, navbar, hero) and the UGR crest `images/logo_ugr.png`.
-- Keep the Newsreader + Inter typography system (explicitly confirmed).
+- Humanized navigation: no logos in navbar or page headings; text-only branding.
+- Keep the Newsreader + Inter typography intent where the theme allows; cloth quilt color palette (`assets/scss/custom/custom.scss`) applied via CSS custom properties.
 - No other visual element is binding: palette, layout, and composition are free to replace.
 
 ## Evidence on Hand

@@ -1,0 +1,20 @@
+schema: hugoblox/author/v1
+slug: montero-alonso
+name:
+  display: Miguel Ángel Montero Alonso
+role: Miembro Coordinador
+bio: |
+  Matemático especializado en modelización matemática de enfermedades infecciosas, dinámica de poblaciones y epidemiología matemática. Su investigación se centra en el desarrollo de modelos matemáticos para comprender la transmisión de enfermedades, evaluar intervenciones de salud pública y predecir la evolución de epidemias. Profesor en la Universidad de Granada, ha colaborado con instituciones nacionales e internacionales en proyectos relacionados con la epidemiología cuantitativa y la salud pública.
+affiliations:
+  - name: Departamento de Estadística e Investigación Operativa, Universidad de Granada
+    url: https://www.ugr.es
+links:
+  - icon: academicons/google-scholar
+    url: 'https://produccioncientifica.ugr.es/investigadores/356497/detalle'
+    label: Producción Científica UGR
+interests:
+  - Epidemiología
+  - Inferencia Causal
+  - Bioestadística
+  - Supervivencia
+  - R / Stata

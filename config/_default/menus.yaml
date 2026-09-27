@@ -1,0 +1,14 @@
+# Navigation Links
+main:
+  - name: Inicio
+    url: /
+    weight: 10
+  - name: Miembros
+    url: /#members
+    weight: 20
+  - name: Seminarios
+    url: seminars/
+    weight: 30
+  - name: Sobre el Grupo
+    url: /#about
+    weight: 40
