@@ -1,0 +1,173 @@
+{
+  "title": "Choose the visual world",
+  "question": "The roll assigned the research-notebook direction. Keep it, take the pick or an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Cuaderno de campo",
+      "kicker": "THE ROLL",
+      "lineage": "graph-ruled research & lab notebooks",
+      "thesis": "The group's site as the ruled working notebook where analyses, seminar notes and people are logged as dated entries.",
+      "palette": ["#f7f4ec", "#16212c", "#1f4a6b", "#c8452c", "#9aa3ab"],
+      "materials": ["squared paper", "ink", "red margin rule", "specimen labels"],
+      "viewport": "A squared-paper spread: red margin rail with entry numbers, the BIO³ cube stamped as the entry seal, and the group statement written as the day's first entry.",
+      "risk": "Reads cute or crafty if the ruling is heavy and the paper warms too far.",
+      "raised": [
+        { "from": "challenger-split-flap", "raise": "Seminars as time-ranked rows with explicit states (announced / upcoming / past), columns fixed, only the state changes." },
+        { "from": "challenger-algorave", "raise": "One orchestrated motion clock: a single reveal rhythm for the whole site instead of scattered hover effects." },
+        { "from": "challenger-viewfinder", "raise": "Metadata as corner-anchored readouts: roles, dates and departments pinned to card edges as compact OSD-style labels." },
+        { "from": "challenger-deep-dive", "raise": "A vertical margin rail doubles as a section depth-gauge, marking where you are in the notebook as you scroll." },
+        { "from": "challenger-pickling", "raise": "Lifecycle stage bands: every seminar carries a visible stage label (convocatoria → próxima → celebrado) in the grid." }
+      ],
+      "wireframe": {
+        "cols": 12, "rows": 10,
+        "regions": [
+          { "label": "navbar", "x": 0, "y": 0, "w": 12, "h": 1 },
+          { "label": "margin rail + entry numbers", "x": 0, "y": 1, "w": 1, "h": 8, "accent": true },
+          { "label": "hero entry: cube stamp + BIO³ statement", "x": 1, "y": 1, "w": 11, "h": 3, "accent": true },
+          { "label": "entry: qué es BIO³ (2 col)", "x": 1, "y": 4, "w": 6, "h": 2 },
+          { "label": "discipline specimen labels", "x": 7, "y": 4, "w": 5, "h": 2 },
+          { "label": "seminar entry (dated row + stage band)", "x": 1, "y": 6, "w": 11, "h": 2, "accent": true },
+          { "label": "colophon / footer", "x": 1, "y": 8, "w": 11, "h": 1 }
+        ]
+      },
+      "buildPath": { "value": "code" }
+    },
+    {
+      "id": "model-pick",
+      "label": "Offprint",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "peer-reviewed journal offprints",
+      "thesis": "The group presented as a publishable article: masthead, structured abstract, numbered sections, figure plates and reference rules.",
+      "palette": ["#ffffff", "#111827", "#1c3f5e", "#b3861f"],
+      "materials": ["coated stock", "hairline rules", "figure captions"],
+      "viewport": "A journal masthead over the group name, an abstract block stating what BIO³ is, then numbered sections with a figure plate of the group's disciplines.",
+      "risk": "Also the direction most runs in this category land on; familiar and safe by design.",
+      "wireframe": {
+        "cols": 12, "rows": 10,
+        "regions": [
+          { "label": "journal masthead", "x": 0, "y": 0, "w": 12, "h": 1, "accent": true },
+          { "label": "title + author block", "x": 0, "y": 1, "w": 12, "h": 2, "accent": true },
+          { "label": "structured abstract", "x": 0, "y": 3, "w": 5, "h": 3 },
+          { "label": "figure plate: disciplines", "x": 5, "y": 3, "w": 7, "h": 3 },
+          { "label": "body col 1", "x": 0, "y": 6, "w": 6, "h": 3 },
+          { "label": "body col 2 + seminar note", "x": 6, "y": 6, "w": 6, "h": 3 }
+        ]
+      },
+      "buildPath": { "value": "code" }
+    },
+    {
+      "id": "challenger-split-flap",
+      "label": "Departures Board",
+      "verdict": "declined",
+      "lineage": "rail concourse split-flap boards",
+      "thesis": "The seminar cycle as a departure board: sessions ranked by date, states flipping as the term runs.",
+      "palette": ["#111417", "#f2f3ef", "#e0a33a", "#8a2f2a"],
+      "materials": ["matte flap faces", "brushed steel", "amber lamps"],
+      "viewport": "Ruled rows of sessions with date, speaker and state columns, cascading per-character flips on update.",
+      "risk": "Reads transit-novelty on a research group's homepage.",
+      "case": "Fuses for seminar dates, but members and bios do not fit fixed flap cells; loses both axes.",
+      "kept": "Live time-ranked rows with explicit states.",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-split-flap-concourse-hero.webp",
+      "buildPath": { "value": "code" }
+    },
+    {
+      "id": "challenger-algorave",
+      "label": "Source Floor",
+      "verdict": "declined",
+      "lineage": "algorave live-coding floors",
+      "thesis": "The group's methods as live code on a phosphor terminal, everything reacting on one clock.",
+      "palette": ["#0a0f0c", "#42f598", "#ff4fd8", "#f5d64c"],
+      "materials": ["phosphor glow", "terminal buffer"],
+      "viewport": "A monospaced source buffer at stage scale, each block a discipline the group works in.",
+      "risk": "Entertainment-tech register contradicts institutional credibility.",
+      "case": "The code-buffer grammar carries methods but not people or seminars; loses both axes.",
+      "kept": "One shared clock orchestrating every motion on the site.",
+      "hero": "https://impeccable.style/worlds/cards/medium-native-algorave-source-floor-hero.webp",
+      "buildPath": { "value": "code" }
+    },
+    {
+      "id": "challenger-viewfinder",
+      "label": "Viewfinder HUD",
+      "verdict": "declined",
+      "lineage": "camcorder framing HUDs",
+      "thesis": "The site as a camera frame: corner brackets frame each block, readouts report state.",
+      "palette": ["#0d0d0d", "#f4f4f4", "#e8a33d"],
+      "materials": ["OSD ink", "zebra stripes", "letterbox bars"],
+      "viewport": "A full-bleed frame with metadata pinned in the safe-area corners and brackets tightening on focus.",
+      "risk": "Gimmick-heavy when every element wears an OSD.",
+      "case": "Strong edge metadata, but the empty centre fights dense academic text; loses on clarity.",
+      "kept": "Corner-anchored metadata readouts on cards.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-viewfinder-bracket-hud-hero.webp",
+      "buildPath": { "value": "code" }
+    },
+    {
+      "id": "challenger-magazine",
+      "label": "Editorial Program",
+      "verdict": "competitive",
+      "lineage": "mid-century magazine identities (Art Paul school)",
+      "thesis": "The group as an editorial program: serif masthead, strict two-column grid, one spot colour per section, the cube mark hidden once per view.",
+      "palette": ["#f4efe6", "#121212", "#c8452c"],
+      "materials": ["coated stock", "spot colour", "hidden mark"],
+      "viewport": "A serif masthead over a two-column grid opening with an oversized initial, the BIO³ cube tucked into the composition.",
+      "risk": "Editorial polish can drift into generic magazine-land.",
+      "case": "Holds product clarity: the grid carries long bios beautifully; does not beat the notebook on audience identification — peers publish in this register rather than live in it.",
+      "hero": "https://impeccable.style/worlds/cards/brand-identity-canon-art-paul-magazine-program-hero.webp",
+      "buildPath": { "value": "code" }
+    },
+    {
+      "id": "challenger-deep-dive",
+      "label": "Deep Dive",
+      "verdict": "declined",
+      "lineage": "mesophotic dive profiles",
+      "thesis": "Reading the site as a descent: surface, thermocline, reef ledge, each depth a section.",
+      "palette": ["#04182e", "#0d5c8c", "#59d8e6", "#f2f6f7"],
+      "materials": ["abyssal gradient", "marine snow"],
+      "viewport": "A vertical depth axis with the group's name at the surface and the seminar cycle at depth.",
+      "risk": "Metaphor-first: dark ground and dive framing obscure an institutional subject.",
+      "case": "Beautiful vertical pacing but peers do not identify with dive tourism; loses both axes.",
+      "kept": "A vertical margin rail used as a depth-gauge for scroll position.",
+      "hero": "https://impeccable.style/worlds/cards/rivers-tides-ocean-depths-mesophotic-deep-dive-hero.webp",
+      "buildPath": { "value": "code" }
+    },
+    {
+      "id": "challenger-pickling",
+      "label": "Stage Calendar",
+      "verdict": "declined",
+      "lineage": "fermentation stage calendars",
+      "thesis": "Everything on the site carries a visible maturation stage, like jars labelled by day.",
+      "palette": ["#fbf7ef", "#2e6b4f", "#d9743f", "#8c5a2b"],
+      "materials": ["kraft labels", "jar glass", "stamped dates"],
+      "viewport": "Shelf lines of labelled entries, each with stage, date and condition.",
+      "risk": "Culinary warmth undercuts scientific register.",
+      "case": "Stage labelling transfers well, but the food-theatre material fights the audience; loses both axes.",
+      "kept": "Explicit lifecycle stage bands on seminar entries.",
+      "hero": "https://impeccable.style/worlds/cards/food-fermentation-culinary-theater-pickling-brine-calendar-hero.webp",
+      "buildPath": { "value": "code" }
+    },
+    {
+      "id": "canon",
+      "label": "The category standard",
+      "kicker": "CANON",
+      "thesis": "What every university research group ships: navy hero with photo, three cards, logo strip — executed impeccably.",
+      "palette": ["#ffffff", "#0c2544", "#1d5fb0"],
+      "materials": ["clean grid", "stock campus photography"],
+      "viewport": "The arrangement a visitor expects, at full craft.",
+      "risk": "Indistinguishable from every other group page by design.",
+      "wireframe": {
+        "cols": 12, "rows": 10,
+        "regions": [
+          { "label": "navy hero + photo", "x": 0, "y": 0, "w": 12, "h": 4, "accent": true },
+          { "label": "3 info cards", "x": 0, "y": 4, "w": 12, "h": 3 },
+          { "label": "logo strip", "x": 0, "y": 7, "w": 12, "h": 1 },
+          { "label": "footer", "x": 0, "y": 8, "w": 12, "h": 2 }
+        ]
+      },
+      "buildPath": { "value": "code" }
+    }
+  ],
+  "reroll": { "registers": ["safer", "bolder"] },
+  "canon": true,
+  "steer": true,
+  "buildPath": { "value": "code" }
+}

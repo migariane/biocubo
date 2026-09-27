@@ -4,22 +4,91 @@ page-layout: full
 ---
 
 ::: {.hero-banner}
+
+::: {.hero-label}
+
 ::: {.hero-kicker}
 Universidad de Granada · Grupo de Investigación
 :::
 
-![](images/biocubo_logo.svg){width="110px" style="margin-bottom:1rem;" alt="Logotipo de BIO³ BIOCUBO"}
+![](images/biocubo_logo.svg){width="95px" alt="Logotipo de BIO³ BIOCUBO"}
 
 # BIO<span class="cube">³</span> · BIOCUBO
 
 ::: {.subtitle}
-Grupo de Investigación Cuantitativa en Biociencias (Biomatemáticas, Bioestadística y Bioinformática), Epidemiología y Salud Pública
+Investigación Cuantitativa en Biociencias, Epidemiología y Salud Pública
 :::
 
 ::: {.tagline}
-Matemáticas · Estadística · Bioestadística · Epidemiología · Ciencia de Datos · Bioinformática
-[![](images/logo_ugr.png){width="180px" alt="Escudo de la Universidad de Granada"}](https://www.ugr.es)
+[![](images/logo_ugr.png){width="160px" alt="Escudo de la Universidad de Granada"}](https://www.ugr.es)
 :::
+
+:::
+
+::: {.quilt-field}
+
+::: {.patch .cloth-chambray}
+
+::: {.icon}
+∞
+:::
+
+Matemáticas
+
+:::
+
+::: {.patch .cloth-indigo}
+
+::: {.icon}
+∑
+:::
+
+Estadística
+
+:::
+
+::: {.patch .cloth-pinstripe}
+
+::: {.icon}
+⊕
+:::
+
+Bioestadística
+
+:::
+
+::: {.patch .cloth-black}
+
+::: {.icon}
+👥
+:::
+
+Epidemiología
+
+:::
+
+::: {.patch .cloth-chambray}
+
+::: {.icon}
+◆
+:::
+
+Bioinformática
+
+:::
+
+::: {.patch .cloth-indigo}
+
+::: {.icon}
+⚗
+:::
+
+Ciencia de Datos
+
+:::
+
+:::
+
 :::
 
 ---
@@ -39,55 +108,50 @@ El nombre **BIO³** refleja la intersección tridimensional de **Bioinformática
 
 ---
 
-## Disciplinas del Grupo {.section-title}
-
-::: {.disciplines-grid}
-::: {.discipline-item}
-[<i class="bi bi-infinity"></i>]{.icon}
-Matemáticas
-:::
-::: {.discipline-item}
-[<i class="bi bi-bar-chart-fill"></i>]{.icon}
-Estadística
-:::
-::: {.discipline-item}
-[<i class="bi bi-activity"></i>]{.icon}
-Bioestadística
-:::
-::: {.discipline-item}
-[<i class="bi bi-people-fill"></i>]{.icon}
-Epidemiología
-:::
-::: {.discipline-item}
-[<i class="bi bi-database-fill"></i>]{.icon}
-Ciencia de Datos
-:::
-::: {.discipline-item}
-[<i class="bi bi-diagram-3-fill"></i>]{.icon}
-Bioinformática
-:::
-:::
 
 ---
 
 ## Misión {.section-title}
 
-BIO³ nace con tres objetivos fundacionales:
+::: {.mission-patches}
+::: {.patch .cloth-linen}
+::: {.icon}
+🔬
+:::
+**Investigar**
 
-1.  **Investigar:** desarrollar y aplicar métodos cuantitativos avanzados en biociencias, epidemiología y salud pública.
-2.  **Divulgar:** organizar seminarios trimestrales abiertos a la comunidad científica y académica.
-3.  **Colaborar:** construir puentes entre disciplinas y grupos dentro y fuera de la UGR.
+Desarrollar y aplicar métodos cuantitativos avanzados en biociencias, epidemiología y salud pública.
+:::
+
+::: {.patch .cloth-linen}
+::: {.icon}
+📢
+:::
+**Divulgar**
+
+Organizar seminarios trimestrales abiertos a la comunidad científica y académica.
+:::
+
+::: {.patch .cloth-linen}
+::: {.icon}
+🤝
+:::
+**Colaborar**
+
+Construir puentes entre disciplinas y grupos dentro y fuera de la UGR.
+:::
+:::
 
 ---
 
-## Próximo Seminario {.section-title}
+## Próximos Seminarios {.section-title}
 
 ::: {.seminar-card .upcoming}
 ::: {.seminar-date}
 Junio 2026 · Trimestre II
 :::
 
-### Sesión I: Inferencia Causal Conformal en Bioestadística [Próximamente]{.badge-upcoming}
+### Sesión I: Inferencia Causal Conformal en Bioestadística
 
 ::: {.seminar-speaker}
 Ponente: Por confirmar · BIO³ BIOCUBO · UGR
@@ -96,8 +160,9 @@ Ponente: Por confirmar · BIO³ BIOCUBO · UGR
 ::: {.seminar-abstract}
 Sesión inaugural del grupo. Se presentarán los fundamentos del grupo, las líneas de investigación prioritarias y una primera charla científica sobre métodos causales modernos.
 :::
+:::
 
-[Ver todos los seminarios →](seminars.qmd)
+[**Ver calendario completo →**](seminars.html)
 :::
 
 ---
