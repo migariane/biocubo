@@ -11,6 +11,8 @@ El nombre **BIO³** expresa la idea de elevar la biociencia al cubo, multiplican
 
 $$\text{BIO}^3 = \text{Bioinformática} \times \text{Bioestad\'istica} \times \text{Biomatemáticas}$$
 
+Creemos que las preguntas científicas más importantes requieren perspectivas múltiples. Un epidemiólogo trabajando solo, un matemático sin aplicaciones reales, están incompletos. Juntos, hacemos mejor ciencia.
+
 ------------------------------------------------------------------------
 
 ## Líneas de Investigación {.section-title}
