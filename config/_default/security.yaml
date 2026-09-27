@@ -16,5 +16,6 @@ exec:
         - tailwindcss
       allowRead:
         - '.'
+        - '/'
       allowWrite: []
       disable: true
