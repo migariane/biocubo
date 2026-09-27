@@ -5,6 +5,7 @@
   "devDependencies": {
     "preact": "^10.19.0",
     "tailwindcss": "^4.1.0",
+    "@tailwindcss/cli": "^4.1.0",
     "@tailwindcss/typography": "^0.5.16"
   }
 }
