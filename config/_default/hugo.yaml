@@ -1,5 +1,5 @@
 baseurl: "https://migariane.github.io/biocubo/"
 title: "BIO³ BIOCUBO"
-languageCode: "es"
+locale: "es"
 defaultContentLanguage: "es"
 defaultContentLanguageInSubdir: false

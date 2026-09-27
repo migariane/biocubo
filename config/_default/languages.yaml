@@ -1,6 +1,6 @@
 # Languages
 es:
-  languageCode: es
-  languageName: Español
+  locale: es
+  label: Español
   contentDir: content/es
   weight: 1
