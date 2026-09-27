@@ -5,12 +5,9 @@ project:
 website:
   title: "BIO³ · BIOCUBO"
   description: "Grupo de Investigación Cuantitativa en Biociencias · Universidad de Granada"
-  favicon: images/biocubo_logo.svg
 
   navbar:
-    logo: images/biocubo_logo.svg
-    logo-alt: "BIO³ BIOCUBO"
-    title: false
+    title: "BIO³ BIOCUBO"
     left:
       - href: index.qmd
         text: Inicio
@@ -27,11 +24,7 @@ website:
 
   page-footer:
     left: "BIO³ BIOCUBO · Grupo de Investigación Cuantitativa en Biociencias"
-    center: |
-      <a href="https://www.ugr.es" title="Universidad de Granada">
-        <img src="images/logo_ugr.png" height="42px" alt="Universidad de Granada"
-             style="filter: brightness(0) invert(1); opacity:0.80; vertical-align:middle;">
-      </a>
+    center: "[Universidad de Granada](https://www.ugr.es) · [GitHub](https://github.com/migariane/biocubo)"
     right: "© 2026 Universidad de Granada"
     background: dark
 

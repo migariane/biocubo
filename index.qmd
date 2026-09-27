@@ -8,10 +8,8 @@ page-layout: full
 ::: {.hero-label}
 
 ::: {.hero-kicker}
-Universidad de Granada · Grupo de Investigación
+Universidad de Granada
 :::
-
-![](images/biocubo_logo.svg){width="95px" alt="Logotipo de BIO³ BIOCUBO"}
 
 # BIO<span class="cube">³</span> · BIOCUBO
 
@@ -20,7 +18,7 @@ Investigación Cuantitativa en Biociencias, Epidemiología y Salud Pública
 :::
 
 ::: {.tagline}
-[![](images/logo_ugr.png){width="160px" alt="Escudo de la Universidad de Granada"}](https://www.ugr.es)
+[Universidad de Granada](https://www.ugr.es) · Grupo de Investigación
 :::
 
 :::
