@@ -17,4 +17,4 @@ exec:
       allowRead:
         - '.'
       allowWrite: []
-      disable: false
+      disable: true
