@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,10 +43,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f935b58d7db6d015de4bfd704a4fb1be.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-b99e6504dfe2dc4fafe78f3de8b764ef.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -158,13 +161,10 @@ ul.task-list li input[type="checkbox"] {
 
 <p>BIO³ está formado por investigadores de diferentes departamentos de la <a href="https://www.ugr.es">Universidad de Granada</a> que comparten el compromiso con la investigación cuantitativa en biociencias y salud pública.</p>
 <hr>
-<section id="miembros-permanentes" class="level2 section-title">
-<h2 class="section-title anchored" data-anchor-id="miembros-permanentes">Miembros Permanentes</h2>
 <div class="members-grid">
-<!-- ===================================================
-     MIEMBRO 1 — Juan Manuel Melchor Rodríguez
-     =================================================== -->
-<section id="miembro1" class="level3 member-card">
+<div class="member-card">
+<div class="member-inner">
+<section id="miembro1" class="level3 member-head">
 <h3 class="anchored" data-anchor-id="miembro1"><a href="https://www.ugr.es/personal/juan-manuel-melchor-rodriguez">Juan Manuel Melchor Rodríguez</a></h3>
 <div class="member-role">
 <p>Miembro Fundador · Coordinador</p>
@@ -172,6 +172,8 @@ ul.task-list li input[type="checkbox"] {
 <div class="member-dept">
 <p>Departamento de Estadística e Investigación Operativa · Universidad de Granada</p>
 </div>
+</section>
+<div class="member-body">
 <div class="member-bio">
 <p>Juan Manuel Melchor es matemático especializado en modelización matemática de enfermedades infecciosas, dinámica de poblaciones y epidemiología matemática. Su investigación se centra en el desarrollo de modelos matemáticos para comprender la transmisión de enfermedades, evaluar intervenciones de salud pública y predecir la evolución de epidemias. Profesor en la Universidad de Granada, ha colaborado con instituciones nacionales e internacionales en proyectos relacionados con la epidemiología cuantitativa y la salud pública.</p>
 </div>
@@ -181,18 +183,21 @@ ul.task-list li input[type="checkbox"] {
 <div class="member-links">
 <p><a href="https://produccioncientifica.ugr.es/investigadores/355249/detalle" class="member-link"><i class="bi bi-journal-text"></i> Producción Científica UGR</a></p>
 </div>
-</section>
-<!-- ===================================================
-     MIEMBRO 2 — Miguel Ángel Luque Fernández
-     =================================================== -->
-<section id="miembro2" class="level3 member-card">
+</div>
+</div>
+</div>
+<div class="member-card">
+<div class="member-inner">
+<section id="miembro2" class="level3 member-head">
 <h3 class="anchored" data-anchor-id="miembro2"><a href="https://www.ugr.es/personal/miguel-angel-luque-fernandez">Miguel Ángel Luque Fernández</a></h3>
 <div class="member-role">
-<p>Miembro Coordinador</p>
+<p>Coordinador del Grupo</p>
 </div>
 <div class="member-dept">
 <p>Departamento de Estadística e Investigación Operativa · Universidad de Granada</p>
 </div>
+</section>
+<div class="member-body">
 <div class="member-bio">
 <p>Matemático Aplicado (Estadística), Epidemiólogo y Bioestadístico con especialización en inferencia causal, métodos semiparamétricos y análisis de supervivencia. Su investigación combina métodos cuantitativos avanzados con preguntas clínicas y de salud pública de alto impacto. Profesor de Estadística en la Universidad de Granada, es también Profesor Asociado Honorario por la London School of Hygiene &amp; Tropical Medicine y fue Postdoctoral Fellow en la Harvard T.H. Chan School of Public Health y la Harvard Medical School, instituciones con las que mantiene colaboraciones activas.</p>
 </div>
@@ -202,73 +207,90 @@ ul.task-list li input[type="checkbox"] {
 <div class="member-links">
 <p><a href="https://produccioncientifica.ugr.es/investigadores/356497/detalle" class="member-link"><i class="bi bi-journal-text"></i> Producción Científica UGR</a></p>
 </div>
-</section>
-<!-- ===================================================
-     MIEMBRO 3 — Miguel Ángel Montero Alonso
-     =================================================== -->
-<section id="miembro3" class="level3 member-card">
+</div>
+</div>
+</div>
+<div class="member-card">
+<div class="member-inner">
+<section id="miembro3" class="level3 member-head">
 <h3 class="anchored" data-anchor-id="miembro3"><a href="https://www.ugr.es/personal/miguel-angel-montero-alonso">Miguel Ángel Montero Alonso</a></h3>
 <div class="member-role">
-<p>Miembro Coordinador</p>
+<p>Coordinador del Grupo</p>
 </div>
 <div class="member-dept">
 <p>Departamento de Estadística e Investigación Operativa · Universidad de Granada</p>
 </div>
+</section>
+<div class="member-body">
 <div class="member-bio">
-<p>Miguel Ángel Montero Alonso es matemático especializado en modelización matemática de enfermedades infecciosas, dinámica de poblaciones y epidemiología matemática. Su investigación se centra en el desarrollo de modelos matemáticos para comprender la transmisión de enfermedades, evaluar intervenciones de salud pública y predecir la evolución de epidemias. Profesor en la Universidad de Granada, ha colaborado con instituciones nacionales e internacionales en proyectos relacionados con la epidemiología cuantitativa y la salud pública.</p>
+<p>Miguel Ángel Montero Alonso es licenciado y doctor en Estadística por la Universidad de Granada. Su investigación se centra en la enseñanza y el aprendizaje de la estadística, así como en la bioestadística aplicada. Ha desarrollado trabajos en el área de la educación estadística, la evaluación de competencias analíticas y la aplicación de métodos estadísticos a problemas de salud pública. Profesor de Estadística en la UGR, pertenece al grupo de investigación en Bioestadística FQM-235.</p>
 </div>
 <div class="member-tags">
-<p><span class="tag">Epidemiología</span> <span class="tag">Inferencia Causal</span> <span class="tag">Bioestadística</span> <span class="tag">Supervivencia</span> <span class="tag">R / Stata</span></p>
+<p><span class="tag">Estadística</span> <span class="tag">Bioestadística</span> <span class="tag">Educación Estadística</span> <span class="tag">R</span></p>
 </div>
 <div class="member-links">
-<p><a href="https://produccioncientifica.ugr.es/investigadores/356497/detalle" class="member-link"><i class="bi bi-journal-text"></i> Producción Científica UGR</a></p>
+<p><a href="https://produccioncientifica.ugr.es/investigadores/356547/detalle" class="member-link"><i class="bi bi-journal-text"></i> Producción Científica UGR</a></p>
 </div>
-</section>
-<!-- ===================================================
-     MIEMBRO 4 — Oscar Sánchez Romero
-     =================================================== -->
-<section id="miembro4" class="level3 member-card">
-<h3 class="anchored" data-anchor-id="miembro4"><a href="http://www.ugr.es/~ossanche/">Oscar Sánchez Romero</a></h3>
+</div>
+</div>
+</div>
+<div class="member-card">
+<div class="member-inner">
+<section id="miembro4" class="level3 member-head">
+<h3 class="anchored" data-anchor-id="miembro4"><a href="https://www.ugr.es/personal/oscar-sanchez-romero">Oscar Sánchez Romero</a></h3>
 <div class="member-role">
-<p>Miembro Coordinador</p>
+<p>Coordinador del Grupo</p>
 </div>
 <div class="member-dept">
 <p>Departamento de Matemática Aplicada · Universidad de Granada</p>
 </div>
+</section>
+<div class="member-body">
 <div class="member-bio">
-<p>Oscar Sánchez es profesor asociado del Departamento de Matemáticas Aplicadas (DMA) de la Universidad de Granada (UGR). Tras varios contratos y estancias en la Universidad Carlos III de Madrid y la UGR, en 2003 presentó su tesis doctoral, que abordaba modelos matemáticos derivados de la teoría de semiconductores y la dinámica gravitacional. Desde entonces trabaja en el DMA de la UGR y ha colaborado con diversos centros de investigación, como la Universidad de París IX (CEREMADE), la Universidad Pompeu Fabra y el Centro de Biología Molecular Severo Ochoa, entre otros.</p>
-<p>Su investigación se centra en las ecuaciones diferenciales, concretamente en su análisis y aplicaciones de modelización. Ha trabajado con una amplia variedad de ecuaciones matemáticas en diversos campos: ecuaciones diferenciales parciales hiperbólicas, operadores con flujo limitado, sistemas dinámicos basados en modelos cuánticos, sistemas cinéticos clásicos/relativistas y sistemas biológicos. Este trabajo requiere el uso de técnicas matemáticas muy diversas: optimización funcional no convexa, análisis cuantitativo de soluciones de ecuaciones diferenciales, límites de modelos discretos, sistemas dinámicos, análisis numérico, modelado matemático, etc. El carácter matemático de su trabajo se ha enriquecido gracias a la interacción con investigadores de otras áreas como la Astrofísica y la Biología. En consecuencia, sus publicaciones están indexadas en numerosas categorías, como Matemáticas, Matemáticas Aplicadas, Matemáticas Interdisciplinarias, Física Multidisciplinar, Mecánica, Física Matemática, Matemática Condensada y Biología. Todas sus publicaciones y preprints se publican regularmente en la página web de publicaciones del grupo de investigación sobre EDP en Teoría Cinética, Cinética Cuántica, Mecánica de Fluidos y Biología del Desarrollo, en el que participa. Recientemente, su interés se ha centrado en el desarrollo de herramientas matemáticas para el análisis de componentes galácticos y en el modelado de procesos morfogenéticos en el desarrollo embrionario.</p>
-<p>Actualmente, sus actividades docentes se centran principalmente en las licenciaturas en Matemáticas y Biología y en el programa de maestría en Física y Matemáticas (FisyMat). Imparte clases de modelado matemático y métodos numéricos a nivel de pregrado y posgrado. Además, en los últimos años ha colaborado con escuelas y talleres internacionales de posgrado. Ha dirigido (o codirigido) una tesis doctoral y actualmente dirige otra.</p>
+<p>Oscar Sánchez Romero es Profesor Titular de Universidad en el Departamento de Matemática Aplicada de la UGR. Tras varios contratos y estancias en la Universidad Carlos III de Madrid y la UGR, en 2003 presentó su tesis doctoral sobre modelos matemáticos derivados de la teoría de semiconductores y la dinámica gravitacional. Ha colaborado con centros como la Universidad de París IX (CEREMADE), la Universidad Pompeu Fabra y el Centro de Biología Molecular Severo Ochoa.</p>
+</div>
+<div class="member-bio">
+<p>Su investigación se centra en el análisis de ecuaciones diferenciales y sus aplicaciones de modelización: ecuaciones diferenciales parciales hiperbólicas, operadores con flujo limitado, sistemas dinámicos basados en modelos cuánticos, sistemas cinéticos y sistemas biológicos. Recientemente, su interés se ha centrado en el desarrollo de herramientas matemáticas para el análisis de componentes galácticos y el modelado de procesos morfogenéticos en el desarrollo embrionario.</p>
+</div>
+<div class="member-bio">
+<p>Actualmente, sus actividades docentes se centran en los grados de Matemáticas y Biología y en el máster en Física y Matemáticas (FisyMat). Imparte modelado matemático y métodos numéricos, y ha dirigido o codirigido varias tesis doctorales.</p>
 </div>
 <div class="member-tags">
 <p><span class="tag">EDPs</span> <span class="tag">Modelización Biomatemática</span> <span class="tag">Ecuaciones evolutivas</span> <span class="tag">Modelización génica</span> <span class="tag">Python / Free Fem</span></p>
 </div>
 <div class="member-links">
-<p><a href="https://produccioncientifica.ugr.es/investigadores/356497/detalle" class="member-link"><i class="bi bi-journal-text"></i> Producción Científica UGR</a></p>
+<p><a href="https://produccioncientifica.ugr.es/investigadores/356874/detalle" class="member-link"><i class="bi bi-journal-text"></i> Producción Científica UGR</a></p>
 </div>
-</section>
-<!-- ===================================================
-     MIEMBRO 5 — Juan Calvo Yagüe
-     =================================================== -->
-<section id="miembro5" class="level3 member-card">
-<h3 class="anchored" data-anchor-id="miembro5"><a href="https://www.modelingnature.org/juan-calvo">Juan Calvo Yagüe</a></h3>
+</div>
+</div>
+</div>
+<div class="member-card">
+<div class="member-inner">
+<section id="miembro5" class="level3 member-head">
+<h3 class="anchored" data-anchor-id="miembro5"><a href="https://www.ugr.es/personal/juan-calvo-yague">Juan Calvo Yagüe</a></h3>
 <div class="member-role">
-<p>Miembro Coordinador</p>
+<p>Coordinador del Grupo</p>
 </div>
 <div class="member-dept">
 <p>Departamento de Matemática Aplicada · Universidad de Granada</p>
 </div>
+</section>
+<div class="member-body">
 <div class="member-bio">
-<p>Juan Calvo es Profesor Asociado del Departamento de Matemática Aplicada de la Universidad de Granada (UGR). Se doctoró en Matemáticas por la UGR en 2010. Ha sido becario postdoctoral Juan de la Cierva en la Universitat Pompeu Fabra y en el Centre de Recerca Matemàtica. En 2016 recibió el Premio Antonio Valle al joven investigador (Sociedad Española de Matemática Aplicada). Desde 2016 trabaja en la UGR.</p>
-<p>Sus principales líneas de investigación se centran en el análisis de ecuaciones diferenciales parciales (EDP) y sus aplicaciones. Algunos de sus trabajos abordan ecuaciones parabólicas degeneradas como modelo de propagación finita en sistemas biológicos. Está particularmente interesado en las diversas familias de ondas viajeras singulares que surgen en este contexto. Juan Calvo también cuenta con experiencia en el análisis de modelos de EDP en teoría cinética y sus aplicaciones para describir escenarios relevantes tanto en Astrofísica como en Biología. Juan Calvo imparte clases de análisis numérico a nivel de pregrado. Su docencia en el máster se centra en modelos matemáticos para la comunicación celular.</p>
+<p>Juan Calvo Yagüe es Profesor Titular de Universidad del Departamento de Matemática Aplicada de la Universidad de Granada (UGR). Se doctoró en Matemáticas por la UGR en 2010. Fue becario postdoctoral Juan de la Cierva en la Universitat Pompeu Fabra y en el Centre de Recerca Matemàtica. En 2016 recibió el Premio Antonio Valle al joven investigador (Sociedad Española de Matemática Aplicada). Desde 2016 trabaja en la UGR.</p>
+</div>
+<div class="member-bio">
+<p>Sus principales líneas de investigación se centran en el análisis de ecuaciones diferenciales parciales (EDP) y sus aplicaciones. Destacan sus trabajos sobre ecuaciones parabólicas degeneradas como modelos de propagación finita en sistemas biológicos, y su interés por las familias de ondas viajeras singulares. También posee experiencia en modelos de EDP en teoría cinética aplicados a la Astrofísica y la Biología.</p>
 </div>
 <div class="member-tags">
 <p><span class="tag">Modelos Matemáticos</span> <span class="tag">Biología Matemática</span> <span class="tag">EDPs</span> <span class="tag">MATLAB / Python</span></p>
 </div>
 <div class="member-links">
-<p><a href="https://produccioncientifica.ugr.es/investigadores/356547/detalle" class="member-link"><i class="bi bi-journal-text"></i> Producción Científica UGR</a></p>
+<p><a href="https://produccioncientifica.ugr.es/investigadores/355530/detalle" class="member-link"><i class="bi bi-journal-text"></i> Producción Científica UGR</a></p>
 </div>
-</section>
+</div>
+</div>
+</div>
 </div>
 <hr>
 <div class="institutional-footer">
@@ -282,7 +304,6 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 
-</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

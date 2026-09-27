@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,10 +43,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f935b58d7db6d015de4bfd704a4fb1be.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-b99e6504dfe2dc4fafe78f3de8b764ef.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -139,20 +142,43 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="hero-banner">
+<div class="quilt-hero">
+<div class="hero-label">
 <div class="hero-kicker">
 <p>Universidad de Granada · Grupo de Investigación</p>
 </div>
-<p><img src="images/biocubo_logo.svg" class="img-fluid" style="margin-bottom:1rem;" alt="Logotipo de BIO³ BIOCUBO" width="110"></p>
+<p><img src="images/biocubo_logo.svg" class="img-fluid" style="margin-bottom:.4rem;" alt="Logotipo de BIO³ BIOCUBO" width="96"></p>
 <section id="bio³-biocubo" class="level1">
 <h1>BIO<span class="cube">³</span> · BIOCUBO</h1>
 <div class="subtitle">
 <p>Grupo de Investigación Cuantitativa en Biociencias (Biomatemáticas, Bioestadística y Bioinformática), Epidemiología y Salud Pública</p>
 </div>
 <div class="tagline">
-<p>Matemáticas · Estadística · Bioestadística · Epidemiología · Ciencia de Datos · Bioinformática <a href="https://www.ugr.es"><img src="images/logo_ugr.png" class="img-fluid" alt="Escudo de la Universidad de Granada" width="180"></a></p>
+<p>Matemáticas · Estadística · Bioestadística · Epidemiología · Ciencia de Datos · Bioinformática</p>
+<p><a href="https://www.ugr.es"><img src="images/logo_ugr.png" class="img-fluid" alt="Escudo de la Universidad de Granada" width="170"></a></p>
 </div>
 </section>
+</div>
+<div class="quilt-field">
+<div class="patch cloth-indigo" style="--i:0;--tilt:-1.1deg">
+<p><span class="icon"><i class="bi bi-infinity"></i></span> <span class="name">Matemáticas</span></p>
+</div>
+<div class="patch cloth-stripe" style="--i:1">
+<p><span class="icon"><i class="bi bi-bar-chart-fill"></i></span> <span class="name">Estadística</span></p>
+</div>
+<div class="patch cloth-black" style="--i:2">
+<p><span class="icon"><i class="bi bi-activity"></i></span> <span class="name">Bioestadística</span></p>
+</div>
+<div class="patch cloth-chambray" style="--i:3">
+<p><span class="icon"><i class="bi bi-people-fill"></i></span> <span class="name">Epidemiología</span></p>
+</div>
+<div class="patch cloth-linen" style="--i:4">
+<p><span class="icon"><i class="bi bi-database-fill"></i></span> <span class="name">Ciencia de Datos</span></p>
+</div>
+<div class="patch cloth-indigo" style="--i:5">
+<p><span class="icon"><i class="bi bi-diagram-3-fill"></i></span> <span class="name">Bioinformática</span></p>
+</div>
+</div>
 </div>
 <hr>
 <div class="logo-row">
@@ -165,59 +191,56 @@ ul.task-list li input[type="checkbox"] {
 <p>El nombre <strong>BIO³</strong> refleja la intersección tridimensional de <strong>Bioinformática</strong>, <strong>Bioestadística</strong> y <strong>Biomatemáticas</strong>, el núcleo del grupo.</p>
 <hr>
 </section>
-<section id="disciplinas-del-grupo" class="level2 section-title">
-<h2 class="section-title anchored" data-anchor-id="disciplinas-del-grupo">Disciplinas del Grupo</h2>
-<div class="disciplines-grid">
-<div class="discipline-item">
-<p><span class="icon"><i class="bi bi-infinity"></i></span> Matemáticas</p>
-</div>
-<div class="discipline-item">
-<p><span class="icon"><i class="bi bi-bar-chart-fill"></i></span> Estadística</p>
-</div>
-<div class="discipline-item">
-<p><span class="icon"><i class="bi bi-activity"></i></span> Bioestadística</p>
-</div>
-<div class="discipline-item">
-<p><span class="icon"><i class="bi bi-people-fill"></i></span> Epidemiología</p>
-</div>
-<div class="discipline-item">
-<p><span class="icon"><i class="bi bi-database-fill"></i></span> Ciencia de Datos</p>
-</div>
-<div class="discipline-item">
-<p><span class="icon"><i class="bi bi-diagram-3-fill"></i></span> Bioinformática</p>
-</div>
-</div>
-<hr>
-</section>
 <section id="misión" class="level2 section-title">
 <h2 class="section-title anchored" data-anchor-id="misión">Misión</h2>
 <p>BIO³ nace con tres objetivos fundacionales:</p>
-<ol type="1">
-<li><strong>Investigar:</strong> desarrollar y aplicar métodos cuantitativos avanzados en biociencias, epidemiología y salud pública.</li>
-<li><strong>Divulgar:</strong> organizar seminarios trimestrales abiertos a la comunidad científica y académica.</li>
-<li><strong>Colaborar:</strong> construir puentes entre disciplinas y grupos dentro y fuera de la UGR.</li>
-</ol>
+<div class="mission-patches">
+<div class="patch cloth-indigo">
+<div class="goal-title">
+<p>Investigar</p>
+</div>
+<div class="goal-text">
+<p>Desarrollar y aplicar métodos cuantitativos avanzados en biociencias, epidemiología y salud pública.</p>
+</div>
+</div>
+<div class="patch cloth-chambray">
+<div class="goal-title">
+<p>Divulgar</p>
+</div>
+<div class="goal-text">
+<p>Organizar seminarios trimestrales abiertos a la comunidad científica y académica.</p>
+</div>
+</div>
+<div class="patch cloth-stripe">
+<div class="goal-title">
+<p>Colaborar</p>
+</div>
+<div class="goal-text">
+<p>Construir puentes entre disciplinas y grupos dentro y fuera de la UGR.</p>
+</div>
+</div>
+</div>
 <hr>
 </section>
 <section id="próximo-seminario" class="level2 section-title">
 <h2 class="section-title anchored" data-anchor-id="próximo-seminario">Próximo Seminario</h2>
 <div class="seminar-card upcoming">
 <div class="seminar-date">
-<p>Junio 2026 · Trimestre II</p>
+<p>Septiembre 2026 · Trimestre III</p>
 </div>
-<section id="sesión-i-inferencia-causal-conformal-en-bioestadística-próximamente" class="level3">
-<h3 class="anchored" data-anchor-id="sesión-i-inferencia-causal-conformal-en-bioestadística-próximamente">Sesión I: Inferencia Causal Conformal en Bioestadística <span class="badge-upcoming">Próximamente</span></h3>
+<section id="modelos-matemáticos-en-epidemiología-de-enfermedades-infecciosas-próximamente" class="level3">
+<h3 class="anchored" data-anchor-id="modelos-matemáticos-en-epidemiología-de-enfermedades-infecciosas-próximamente">Modelos Matemáticos en Epidemiología de Enfermedades Infecciosas <span class="badge-upcoming">Próximamente</span></h3>
 <div class="seminar-speaker">
-<p>Ponente: Por confirmar · BIO³ BIOCUBO · UGR</p>
+<p>Ponente: Por confirmar · Departamento de Matemática Aplicada, UGR</p>
 </div>
 <div class="seminar-abstract">
-<p>Sesión inaugural del grupo. Se presentarán los fundamentos del grupo, las líneas de investigación prioritarias y una primera charla científica sobre métodos causales modernos.</p>
+<p>Segunda sesión del ciclo BIO³. Se abordarán los fundamentos de los modelos compartimentales (SIR, SEIR) y sus extensiones modernas, con aplicaciones a la pandemia de COVID-19 y otras enfermedades infecciosas emergentes.</p>
 </div>
-<p><a href="./seminars.html">Ver todos los seminarios →</a></p>
+<p><a href="./seminars.html" class="btn-quilt">Ver todos los seminarios →</a></p>
 </section>
 </div>
 <hr>
-<div style="text-align:center; margin-top:2rem; color:#666; font-size:0.9rem;">
+<div style="text-align:center; margin-top:2rem; color:#7A5C3A; font-size:0.9rem; font-style:italic;">
 <p>BIO³ BIOCUBO · <a href="https://www.ugr.es">Universidad de Granada</a> · Granada, España</p>
 </div>
 

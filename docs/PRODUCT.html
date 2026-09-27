@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Sobre BIO³ BIOCUBO – BIO³ · BIOCUBO</title>
+<title>product – BIO³ · BIOCUBO</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -75,42 +75,11 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="BIO³ BIOCUBO">
 <meta property="og:description" content="Matemáticos, Estadísticos, Bioestadísticos y Epidemiólogos · UGR">
-<meta property="og:image" content="images/logo_ugr.png">
 <meta property="og:site_name" content="BIO³ · BIOCUBO">
-<meta property="og:image:alt" content="Escudo de la Universidad de Granada">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -144,7 +113,7 @@ window.Quarto = {
 <span class="menu-text">Seminarios</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">Sobre el Grupo</span></a>
   </li>  
 </ul>
@@ -166,103 +135,70 @@ window.Quarto = {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Sobre BIO³ BIOCUBO</h1>
-<p class="subtitle lead">Quiénes somos, qué hacemos y cómo colaborar</p>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="el-grupo" class="level2 section-title">
-<h2 class="section-title anchored" data-anchor-id="el-grupo">El Grupo</h2>
-<p><strong>BIO³ BIOCUBO</strong> es un grupo de investigación interdisciplinar radicado en la <a href="https://www.ugr.es">Universidad de Granada</a> que reúne a matemáticos del grupo FQM-0316, estadísticos, Bioestadísticos del grupo FQM-235, epidemiólogos y otros perfiles cuantitativos con un objetivo común: aplicar métodos rigurosos al avance de las biociencias, la epidemiología y la salud pública.</p>
-<p>El nombre <strong>BIO³</strong> expresa la idea de elevar la biociencia al cubo, multiplicando su potencial a través de la intersección de tres dimensiones cuantitativas:</p>
-<p><span class="math display">\[\text{BIO}^3 = \text{Bioinformática} \times \text{Bioestad\'istica} \times \text{Biomatemáticas}\]</span></p>
-<hr>
+<section id="product" class="level1">
+<h1>Product</h1>
+<!-- impeccable:product-schema 1 -->
+<section id="platform" class="level2">
+<h2 class="anchored" data-anchor-id="platform">Platform</h2>
+<p>web</p>
 </section>
-<section id="líneas-de-investigación" class="level2 section-title">
-<h2 class="section-title anchored" data-anchor-id="líneas-de-investigación">Líneas de Investigación</h2>
-<div class="line-list">
+<section id="users" class="level2">
+<h2 class="anchored" data-anchor-id="users">Users</h2>
+<p>Primary: scientific peers and potential collaborators (researchers, other groups, funders) evaluating whether BIO³ BIOCUBO is a serious quantitative group to work with. Secondary: prospective students/early-career researchers and the wider UGR public looking for members and the seminar schedule.</p>
+</section>
+<section id="product-purpose" class="level2">
+<h2 class="anchored" data-anchor-id="product-purpose">Product Purpose</h2>
+<p>Public site of BIO³ BIOCUBO, a quantitative research group at the Universidad de Granada (Biomathematics, Biostatistics, Bioinformatics, Epidemiology, Public Health). It presents who the group is, who its members are, what it investigates, and its quarterly seminar cycle. Success: a first-time visitor understands what BIO³ is and reaches members or seminars within seconds.</p>
+</section>
+<section id="positioning" class="level2">
+<h2 class="anchored" data-anchor-id="positioning">Positioning</h2>
+<p>An interdisciplinary UGR group that applies rigorous mathematical and statistical method to biosciences and public health, standing at the documented intersection of Bioinformatics, Biostatistics and Biomathematics (the “BIO³” name).</p>
+</section>
+<section id="operating-context" class="level2">
+<h2 class="anchored" data-anchor-id="operating-context">Operating Context</h2>
+<p>Static Quarto website (<code>project.type: website</code>, output to <code>docs/</code>) published on GitHub Pages at https://migariane.github.io/biocubo/ from branch <code>main</code>, path <code>/docs</code>. Content is authored in Spanish in <code>.qmd</code> sources (<code>index.qmd</code>, <code>members.qmd</code>, <code>seminars.qmd</code>, <code>about.qmd</code>) with a single <code>styles.css</code> and <code>_quarto.yml</code>. Edits must render with <code>quarto render</code>.</p>
+</section>
+<section id="capabilities-and-constraints" class="level2">
+<h2 class="anchored" data-anchor-id="capabilities-and-constraints">Capabilities and Constraints</h2>
 <ul>
-<li><strong>Inferencia causal:</strong> métodos semiparamétricos, <em>targeted learning</em>, causalidad conformal</li>
-<li><strong>Modelos matemáticos:</strong> dinámica de enfermedades infecciosas, modelos poblacionales</li>
-<li><strong>Estadística computacional:</strong> métodos de Monte Carlo, inferencia bayesiana, <em>machine learning</em></li>
-<li><strong>Bioinformática y ómicas:</strong> análisis genómico, transcriptómico y proteómico</li>
-<li><strong>Epidemiología cuantitativa:</strong> farmacoepidemiología, estudios observacionales, grandes bases de datos</li>
-<li><strong>Bioestadística clínica:</strong> ensayos clínicos, datos longitudinales, análisis de supervivencia</li>
-<li><strong>Biomatemáticas:</strong> Ecuaciones de Transporte, Mecánica de Fluidos, Ecuaciones Estocásticas, Modelización génica. Matemáticas y ciencias de la vida: modelos de desarrollo.</li>
+<li>Four static pages: Inicio, Miembros, Seminarios, Sobre el Grupo; navbar search overlay; back-to-top.</li>
+<li>No backend, forms, CMS, or JS build step; only Quarto + Bootstrap + custom CSS.</li>
+<li>Content language: Spanish. Facts (names, roles, departments, seminar details) are fixed and must not be invented.</li>
+<li>Photography exists in <code>images/</code> (seminar and group photos, member-less) and must be used as-is; no image generation in this environment.</li>
 </ul>
-</div>
-<hr>
 </section>
-<section id="cómo-colaborar" class="level2 section-title">
-<h2 class="section-title anchored" data-anchor-id="cómo-colaborar">Cómo Colaborar</h2>
-<p>BIO³ está abierto a:</p>
-<div class="line-list">
+<section id="brand-commitments" class="level2">
+<h2 class="anchored" data-anchor-id="brand-commitments">Brand Commitments</h2>
 <ul>
-<li><strong>Investigadores de la UGR</strong> de cualquier departamento con interés en métodos cuantitativos</li>
-<li><strong>Investigadores externos</strong> que quieran colaborar o impartir un seminario</li>
-<li><strong>Estudiantes de grado, máster y doctorado</strong> interesados en formación cuantitativa avanzada</li>
-<li><strong>Clínicos y profesionales de la salud</strong> que busquen apoyo metodológico</li>
+<li>Keep the <code>images/biocubo_logo.svg</code> cube logo (favicon, navbar, hero) and the UGR crest <code>images/logo_ugr.png</code>.</li>
+<li>Keep the Newsreader + Inter typography system (explicitly confirmed).</li>
+<li>No other visual element is binding: palette, layout, and composition are free to replace.</li>
 </ul>
-</div>
-<p>Para unirte o colaborar con el grupo, contacta con el coordinador a través del <a href="https://www.ugr.es">portal de la Universidad de Granada</a>.</p>
-<hr>
 </section>
-<section id="afiliación-institucional" class="level2 section-title">
-<h2 class="section-title anchored" data-anchor-id="afiliación-institucional">Afiliación Institucional</h2>
-<div class="logo-row">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://www.ugr.es"><img src="images/logo_ugr.png" class="img-fluid figure-img" alt="Escudo de la Universidad de Granada" width="180"></a></p>
-<figcaption>Universidad de Granada</figcaption>
-</figure>
-</div>
-</div>
-<p>BIO³ BIOCUBO está vinculado a la <strong>Universidad de Granada</strong> y opera en colaboración con:</p>
-<div class="line-list">
-<ul>
-<li>Facultad de Medicina</li>
-<li>Facultad de Ciencias (Departamentos de Estadística y Matemática Aplicada)</li>
-<li>Escuela Andaluza de Salud Pública (EASP)</li>
-<li>Instituto de Investigación Biosanitaria de Granada (ibs.GRANADA)</li>
-</ul>
-</div>
-<hr>
+<section id="evidence-on-hand" class="level2">
+<h2 class="anchored" data-anchor-id="evidence-on-hand">Evidence on Hand</h2>
+<p>Members bios, tags and links (<code>members.qmd</code>), seminar entries and gallery (<code>seminars.qmd</code>), group description and mission (<code>about.qmd</code>, <code>index.qmd</code>), institutional partner logos (<code>images/logos.png</code>), three seminar/group photos (<code>images/seminar1.jpg</code>, <code>seminar2.jpg</code>, <code>ext.jpg</code>). No testimonials, metrics, publication counts, or funding figures exist on hand — future work must not fabricate them.</p>
 </section>
-<section id="contacto" class="level2 section-title">
-<h2 class="section-title anchored" data-anchor-id="contacto">Contacto</h2>
-<div class="contact-grid">
-<div class="contact-item">
-<p><strong>Coordinadores</strong></p>
-<p>Juan Manuel Melchor Rodríguez · Miguel Ángel Montero Alonso · Miguel Ángel Luque-Fernández · Oscar Sánchez · Juan Calvo</p>
-</div>
-<div class="contact-item">
-<p><strong>Institución</strong></p>
-<p>Universidad de Granada</p>
-</div>
-<div class="contact-item">
-<p><strong>Web UGR</strong></p>
-<p><a href="https://www.ugr.es">www.ugr.es</a></p>
-</div>
-</div>
+<section id="product-principles" class="level2">
+<h2 class="anchored" data-anchor-id="product-principles">Product Principles</h2>
+<ol type="1">
+<li>Rigor first: the design must read as scientifically serious, not promotional.</li>
+<li>People and seminars are the product: members and the seminar cycle get the strongest real estate.</li>
+<li>Facts stay facts: never invent numbers, claims, or affiliations.</li>
+<li>Institutional credibility: UGR affiliation and partner logos are visible proof.</li>
+</ol>
+</section>
+<section id="accessibility-inclusion" class="level2">
+<h2 class="anchored" data-anchor-id="accessibility-inclusion">Accessibility &amp; Inclusion</h2>
+<p>Standard web accessibility: keyboard focus visibility, semantic headings, alt text on images, contrast meeting WCAG AA, <code>prefers-reduced-motion</code> respected (already a project convention).</p>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
