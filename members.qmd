@@ -39,7 +39,7 @@ Juan Manuel Melchor es matemático especializado en modelización matemática de
 :::
 
 ::: member-links
-[<i class="bi bi-journal-text"></i> Producción Científica UGR](https://produccioncientifica.ugr.es/investigadores/355249/detalle){.member-link}
+[Producción Científica UGR](https://produccioncientifica.ugr.es/investigadores/355249/detalle){.member-link}
 :::
 ::::::::
 
@@ -71,7 +71,7 @@ Matemático Aplicado (Estadística), Epidemiólogo y Bioestadístico con especia
 :::
 
 ::: member-links
-[<i class="bi bi-journal-text"></i> Producción Científica UGR](https://produccioncientifica.ugr.es/investigadores/356497/detalle){.member-link}
+[Producción Científica UGR](https://produccioncientifica.ugr.es/investigadores/356497/detalle){.member-link}
 :::
 ::::::::
 
@@ -103,7 +103,8 @@ Miguel Ángel Montero Alonso es matemático especializado en modelización matem
 :::
 
 ::: member-links
-[<i class="bi bi-journal-text"></i> Producción Científica UGR](https://produccioncientifica.ugr.es/investigadores/356497/detalle){.member-link}
+[Producción Científica UGR](https://produccioncientifica.ugr.es/investigadores/356547/detalle){.member-link}
+[Perfil UGR](https://www.ugr.es/personal/miguel-angel-montero-alonso){.member-link}
 :::
 ::::::::
 
@@ -139,7 +140,7 @@ Actualmente, sus actividades docentes se centran principalmente en las licenciat
 :::
 
 ::: member-links
-[<i class="bi bi-journal-text"></i> Producción Científica UGR](https://produccioncientifica.ugr.es/investigadores/356497/detalle){.member-link}
+[Producción Científica UGR](https://produccioncientifica.ugr.es/investigadores/356874/detalle){.member-link}
 :::
 ::::::::
 
@@ -173,7 +174,7 @@ Sus principales líneas de investigación se centran en el análisis de ecuacion
 :::
 
 ::: member-links
-[<i class="bi bi-journal-text"></i> Producción Científica UGR](https://produccioncientifica.ugr.es/investigadores/356547/detalle){.member-link}
+[Producción Científica UGR](https://produccioncientifica.ugr.es/investigadores/355530/detalle){.member-link}
 :::
 ::::::::
 
@@ -184,7 +185,7 @@ Sus principales líneas de investigación se centran en el análisis de ecuacion
 ::: institutional-footer
 [![Universidad de Granada](images/logo_ugr.png){width="120px" alt="Escudo de la Universidad de Granada"}](https://www.ugr.es)
 
-[![Universidad de Granada](images/logo_ugr.png){width="120px"}][![BIO³ BIOCUBO](images/biocubo_logo.svg){width="120px"}]
+![BIO³ BIOCUBO](images/biocubo_logo.svg){width="120px" alt="Logotipo de BIO³ BIOCUBO"}
 
 ¿Interesado en unirte a BIO³? Contacta con los coordinadores del grupo a través de la [Universidad de Granada](https://www.ugr.es).
 :::

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="BIO³ BIOCUBO">
+  <title>BIO³ BIOCUBO</title>
+  <defs>
+    <linearGradient id="markTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8FC0EE"/>
+      <stop offset="100%" stop-color="#6AA5E0"/>
+    </linearGradient>
+    <linearGradient id="markLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2F74BF"/>
+      <stop offset="100%" stop-color="#245FA3"/>
+    </linearGradient>
+    <linearGradient id="markRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1B4E8C"/>
+      <stop offset="100%" stop-color="#123A6B"/>
+    </linearGradient>
+  </defs>
+
+  <polygon points="120,48 186,85 120,122 54,85" fill="url(#markTop)"/>
+  <polygon points="54,85 120,122 120,194 54,157" fill="url(#markLeft)"/>
+  <polygon points="186,85 120,122 120,194 186,157" fill="url(#markRight)"/>
+
+  <path d="M120,48 L186,85 L120,122 L54,85 Z" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M120,122 L120,194" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="2"/>
+  <path d="M54,85 L54,157 L120,194 L186,157 L186,85" fill="none" stroke="#0B2E4F" stroke-opacity="0.35" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="120,60 164,85 120,110 76,85" fill="#FFFFFF" fill-opacity="0.16"/>
+</svg>

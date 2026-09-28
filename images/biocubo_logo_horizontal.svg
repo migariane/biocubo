@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 148" width="520" height="148" role="img" aria-label="BIO³-BIOCUBO">
+  <title>BIO³-BIOCUBO</title>
+  <defs>
+    <linearGradient id="hTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8FC0EE"/>
+      <stop offset="100%" stop-color="#6AA5E0"/>
+    </linearGradient>
+    <linearGradient id="hLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2F74BF"/>
+      <stop offset="100%" stop-color="#245FA3"/>
+    </linearGradient>
+    <linearGradient id="hRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1B4E8C"/>
+      <stop offset="100%" stop-color="#123A6B"/>
+    </linearGradient>
+  </defs>
+
+  <g>
+    <polygon points="70,25.5 114,50 70,74.5 26,50" fill="url(#hTop)"/>
+    <polygon points="26,50 70,74.5 70,122.5 26,98" fill="url(#hLeft)"/>
+    <polygon points="114,50 70,74.5 70,122.5 114,98" fill="url(#hRight)"/>
+    <path d="M70,25.5 L114,50 L70,74.5 L26,50 Z" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1.4" stroke-linejoin="round"/>
+    <path d="M70,74.5 L70,122.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.4"/>
+    <path d="M26,50 L26,98 L70,122.5 L114,98 L114,50" fill="none" stroke="#0B2E4F" stroke-opacity="0.35" stroke-width="1.4" stroke-linejoin="round"/>
+    <polygon points="70,33.5 99,50 70,66.5 41,50" fill="#FFFFFF" fill-opacity="0.16"/>
+  </g>
+
+  <text x="140" y="90"
+        font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="46" font-weight="700" letter-spacing="0.5"
+        fill="#123A6B">BIO³-BIOCUBO</text>
+</svg>

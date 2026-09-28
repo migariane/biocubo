@@ -6,85 +6,47 @@ page-layout: full
 ::: {.hero-banner}
 
 ::: {.hero-label}
-
 ::: {.hero-kicker}
 Universidad de Granada · Grupo de Investigación
 :::
 
-![](images/biocubo_logo.svg){width="95px" alt="Logotipo de BIO³ BIOCUBO"}
+![](images/biocubo_logo.svg){width="140px" alt="Logotipo de BIO³ BIOCUBO"}
 
 # BIO<span class="cube">³</span> · BIOCUBO
 
 ::: {.subtitle}
-Investigación Cuantitativa en Biociencias, Epidemiología y Salud Pública
+Investigación cuantitativa en biociencias, epidemiología y salud pública
 :::
 
 ::: {.tagline}
-[![](images/logo_ugr.png){width="160px" alt="Escudo de la Universidad de Granada"}](https://www.ugr.es)
+[![](images/logo_ugr.png){width="150px" alt="Escudo de la Universidad de Granada"}](https://www.ugr.es)
 :::
-
 :::
 
 ::: {.quilt-field}
 
-::: {.patch .cloth-chambray}
-
-::: {.icon}
-∞
-:::
-
+::: {.patch}
 Matemáticas
-
 :::
 
-::: {.patch .cloth-indigo}
-
-::: {.icon}
-∑
-:::
-
+::: {.patch}
 Estadística
-
 :::
 
-::: {.patch .cloth-pinstripe}
-
-::: {.icon}
-⊕
-:::
-
+::: {.patch}
 Bioestadística
-
 :::
 
-::: {.patch .cloth-black}
-
-::: {.icon}
-👥
-:::
-
+::: {.patch}
 Epidemiología
-
 :::
 
-::: {.patch .cloth-chambray}
-
-::: {.icon}
-◆
-:::
-
+::: {.patch}
 Bioinformática
-
 :::
 
-::: {.patch .cloth-indigo}
-
-::: {.icon}
-⚗
-:::
-
+::: {.patch}
 Ciencia de Datos
-
 :::
 
 :::
@@ -94,8 +56,7 @@ Ciencia de Datos
 ---
 
 ::: {.logo-row}
-
-[![](images/logos.png){width="280px" alt="Logotipos de BIO³ y del proyecto Modeling Nature"}](https://www.modelingnature.org)
+[![](images/logos.png){width="300px" alt="Logotipos de Modeling Nature, MNat e ibs.GRANADA"}](https://www.modelingnature.org)
 :::
 
 ---
@@ -106,40 +67,28 @@ Ciencia de Datos
 
 El nombre **BIO³** refleja la intersección tridimensional de **Bioinformática**, **Bioestadística** y **Biomatemáticas**, el núcleo del grupo.
 
----
-
-
----
-
 ## Misión {.section-title}
 
 ::: {.mission-patches}
-::: {.patch .cloth-linen}
-::: {.icon}
-🔬
-:::
+
+::: {.patch}
 **Investigar**
 
 Desarrollar y aplicar métodos cuantitativos avanzados en biociencias, epidemiología y salud pública.
 :::
 
-::: {.patch .cloth-linen}
-::: {.icon}
-📢
-:::
+::: {.patch}
 **Divulgar**
 
 Organizar seminarios trimestrales abiertos a la comunidad científica y académica.
 :::
 
-::: {.patch .cloth-linen}
-::: {.icon}
-🤝
-:::
+::: {.patch}
 **Colaborar**
 
 Construir puentes entre disciplinas y grupos dentro y fuera de la UGR.
 :::
+
 :::
 
 ---
@@ -162,16 +111,15 @@ Sesión inaugural del grupo. Se presentarán los fundamentos del grupo, las lín
 :::
 :::
 
-[**Ver calendario completo →**](seminars.html)
+::: {.seminar-actions}
+[**Ver calendario completo**](seminars.html){.btn-plain}
 :::
 
----
-
-::: {style="text-align:center; margin-top:2rem; color:#666; font-size:0.9rem;"}
+::: {.contact-note}
 BIO³ BIOCUBO · [Universidad de Granada](https://www.ugr.es) · Granada, España
-:::
 :::
 
 ::: {.logo-row}
-[![](images/logo_ugr.png){width="140px" alt="Escudo de la Universidad de Granada"}][![](images/biocubo_logo.svg){width="140px" alt="Logotipo de BIO³ BIOCUBO"}]
+![](images/logo_ugr.png){width="150px" alt="Escudo de la Universidad de Granada"}
+![](images/biocubo_logo.svg){width="150px" alt="Logotipo de BIO³ BIOCUBO"}
 :::

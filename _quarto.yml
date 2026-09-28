@@ -5,11 +5,12 @@ project:
 website:
   title: "BIO³ · BIOCUBO"
   description: "Grupo de Investigación Cuantitativa en Biociencias · Universidad de Granada"
-  favicon: images/biocubo_logo.svg
+  favicon: images/biocubo_mark.svg
 
   navbar:
-    logo: images/biocubo_logo.svg
+    logo: images/biocubo_logo_horizontal.svg
     logo-alt: "BIO³ BIOCUBO"
+    background: light
     title: false
     left:
       - href: index.qmd

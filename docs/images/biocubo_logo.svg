@@ -1,30 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
-  <!-- Cube back faces -->
-  <polygon points="60,30 140,30 140,110 60,110" fill="#1a3a5c" opacity="0.7"/>
-  <polygon points="140,30 170,55 170,135 140,110" fill="#0d2a45" opacity="0.9"/>
-  <polygon points="60,110 140,110 170,135 90,135" fill="#0a2038" opacity="0.85"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 240" width="340" height="240" role="img" aria-label="BIO³-BIOCUBO">
+  <title>BIO³-BIOCUBO</title>
+  <defs>
+    <linearGradient id="cubeTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8FC0EE"/>
+      <stop offset="100%" stop-color="#6AA5E0"/>
+    </linearGradient>
+    <linearGradient id="cubeLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2F74BF"/>
+      <stop offset="100%" stop-color="#245FA3"/>
+    </linearGradient>
+    <linearGradient id="cubeRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1B4E8C"/>
+      <stop offset="100%" stop-color="#123A6B"/>
+    </linearGradient>
+    <linearGradient id="wordGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#123A6B"/>
+      <stop offset="100%" stop-color="#1B4E8C"/>
+    </linearGradient>
+  </defs>
 
-  <!-- Cube front face -->
-  <polygon points="30,55 110,55 110,135 30,135" fill="#2563a8" opacity="0.95"/>
-  <!-- Cube top face -->
-  <polygon points="30,55 60,30 140,30 110,55" fill="#3b82c4"/>
-  <!-- Cube right face -->
-  <polygon points="110,55 140,30 170,55 140,80" fill="#1e4f8c"/>
-  <!-- Cube right face lower -->
-  <polygon points="110,55 140,80 170,55 170,135 140,110 110,135" fill="#1e4f8c" opacity="0.8"/>
+  <!-- Isometric cube: top face -->
+  <polygon points="170,23 236,60 170,97 104,60" fill="url(#cubeTop)"/>
+  <!-- Left face -->
+  <polygon points="104,60 170,97 170,169 104,132" fill="url(#cubeLeft)"/>
+  <!-- Right face -->
+  <polygon points="236,60 170,97 170,169 236,132" fill="url(#cubeRight)"/>
 
-  <!-- BIO text on front face -->
-  <text x="70" y="105" font-family="Georgia, serif" font-size="38" font-weight="bold"
-        fill="white" text-anchor="middle" letter-spacing="1">BIO</text>
+  <!-- Edge highlights -->
+  <path d="M170,23 L236,60 L170,97 L104,60 Z" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M170,97 L170,169" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.5"/>
+  <path d="M104,60 L104,132 L170,169 L236,132 L236,60" fill="none" stroke="#0B2E4F" stroke-opacity="0.35" stroke-width="1.5" stroke-linejoin="round"/>
 
-  <!-- Superscript 3 -->
-  <text x="148" y="72" font-family="Georgia, serif" font-size="26" font-weight="bold"
-        fill="#f0c040" text-anchor="middle">3</text>
+  <!-- Subtle top-face sheen -->
+  <polygon points="170,35 214,60 170,85 126,60" fill="#FFFFFF" fill-opacity="0.16"/>
 
-  <!-- Small molecule dots -->
-  <circle cx="42" cy="68" r="3" fill="#7ec8e3" opacity="0.8"/>
-  <circle cx="98" cy="62" r="2.5" fill="#7ec8e3" opacity="0.8"/>
-  <circle cx="55" cy="128" r="3" fill="#7ec8e3" opacity="0.8"/>
-  <line x1="42" y1="68" x2="55" y2="128" stroke="#7ec8e3" stroke-width="1" opacity="0.5"/>
-  <line x1="42" y1="68" x2="98" y2="62" stroke="#7ec8e3" stroke-width="1" opacity="0.5"/>
+  <!-- Wordmark -->
+  <text x="170" y="218" text-anchor="middle"
+        font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="36" font-weight="700" letter-spacing="1.5"
+        fill="url(#wordGrad)">BIO³-BIOCUBO</text>
 </svg>

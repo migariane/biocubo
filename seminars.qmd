@@ -225,8 +225,8 @@ Ponente: [Nombre Apellido] · [Afiliación]
 [Resumen de la charla, 2-4 frases describiendo el contenido y las conclusiones principales.]
 :::
 
-[▶ Ver vídeo](URL_VIDEO){.btn-video}
-[📄 Descargar slides](URL_SLIDES)
+[Ver vídeo](URL_VIDEO){.btn-video}
+[Descargar diapositivas](URL_SLIDES)
 :::
 -->
 ```
@@ -249,7 +249,7 @@ Ponente: [Nombre Apellido] · [Afiliación]
 ::: institutional-footer
 [![Universidad de Granada](images/logo_ugr.png){width="120px" alt="Escudo de la Universidad de Granada"}](https://www.ugr.es)
 
-[![Universidad de Granada](images/logo_ugr.png){width="120px"}][![BIO³ BIOCUBO](images/biocubo_logo.svg){width="120px"}]
+![BIO³ BIOCUBO](images/biocubo_logo.svg){width="120px" alt="Logotipo de BIO³ BIOCUBO"}
 
 Para proponer una ponencia o para más información, contacta con el grupo a través de la [Universidad de Granada](https://www.ugr.es).
 :::
