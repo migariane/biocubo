@@ -1,0 +1,177 @@
+---
+title: ""
+page-layout: full
+---
+
+::: {.hero-banner}
+
+::: {.hero-label}
+
+::: {.hero-kicker}
+Universidad de Granada · Grupo de Investigación
+:::
+
+![](images/biocubo_logo.svg){width="95px" alt="Logotipo de BIO³ BIOCUBO"}
+
+# BIO<span class="cube">³</span> · BIOCUBO
+
+::: {.subtitle}
+Investigación Cuantitativa en Biociencias, Epidemiología y Salud Pública
+:::
+
+::: {.tagline}
+[![](images/logo_ugr.png){width="160px" alt="Escudo de la Universidad de Granada"}](https://www.ugr.es)
+:::
+
+:::
+
+::: {.quilt-field}
+
+::: {.patch .cloth-chambray}
+
+::: {.icon}
+∞
+:::
+
+Matemáticas
+
+:::
+
+::: {.patch .cloth-indigo}
+
+::: {.icon}
+∑
+:::
+
+Estadística
+
+:::
+
+::: {.patch .cloth-pinstripe}
+
+::: {.icon}
+⊕
+:::
+
+Bioestadística
+
+:::
+
+::: {.patch .cloth-black}
+
+::: {.icon}
+👥
+:::
+
+Epidemiología
+
+:::
+
+::: {.patch .cloth-chambray}
+
+::: {.icon}
+◆
+:::
+
+Bioinformática
+
+:::
+
+::: {.patch .cloth-indigo}
+
+::: {.icon}
+⚗
+:::
+
+Ciencia de Datos
+
+:::
+
+:::
+
+:::
+
+---
+
+::: {.logo-row}
+
+[![](images/logos.png){width="280px" alt="Logotipos de BIO³ y del proyecto Modeling Nature"}](https://www.modelingnature.org)
+:::
+
+---
+
+## ¿Qué es BIO³? {.section-title}
+
+**BIO³** (BIOCUBO) es un grupo interdisciplinar de investigadores cuantitativos de la [Universidad de Granada](https://www.ugr.es) comprometidos con el avance de la ciencia a través de métodos matemáticos y estadísticos rigurosos aplicados a las biociencias, la salud pública y la epidemiología.
+
+El nombre **BIO³** refleja la intersección tridimensional de **Bioinformática**, **Bioestadística** y **Biomatemáticas**, el núcleo del grupo.
+
+---
+
+
+---
+
+## Misión {.section-title}
+
+::: {.mission-patches}
+::: {.patch .cloth-linen}
+::: {.icon}
+🔬
+:::
+**Investigar**
+
+Desarrollar y aplicar métodos cuantitativos avanzados en biociencias, epidemiología y salud pública.
+:::
+
+::: {.patch .cloth-linen}
+::: {.icon}
+📢
+:::
+**Divulgar**
+
+Organizar seminarios trimestrales abiertos a la comunidad científica y académica.
+:::
+
+::: {.patch .cloth-linen}
+::: {.icon}
+🤝
+:::
+**Colaborar**
+
+Construir puentes entre disciplinas y grupos dentro y fuera de la UGR.
+:::
+:::
+
+---
+
+## Próximos Seminarios {.section-title}
+
+::: {.seminar-card .upcoming}
+::: {.seminar-date}
+Junio 2026 · Trimestre II
+:::
+
+### Sesión I: Inferencia Causal Conformal en Bioestadística
+
+::: {.seminar-speaker}
+Ponente: Por confirmar · BIO³ BIOCUBO · UGR
+:::
+
+::: {.seminar-abstract}
+Sesión inaugural del grupo. Se presentarán los fundamentos del grupo, las líneas de investigación prioritarias y una primera charla científica sobre métodos causales modernos.
+:::
+:::
+
+[**Ver calendario completo →**](seminars.html)
+:::
+
+---
+
+::: {style="text-align:center; margin-top:2rem; color:#666; font-size:0.9rem;"}
+BIO³ BIOCUBO · [Universidad de Granada](https://www.ugr.es) · Granada, España
+:::
+:::
+
+::: {.logo-row}
+[![](images/logo_ugr.png){width="140px" alt="Escudo de la Universidad de Granada"}][![](images/biocubo_logo.svg){width="140px" alt="Logotipo de BIO³ BIOCUBO"}]
+:::

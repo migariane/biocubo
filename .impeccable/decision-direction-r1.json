@@ -1,0 +1,129 @@
+{
+  "title": "Choose the visual world",
+  "question": "Bolder hand dealt. The type specimen leads by deal order; the quilt wins on both axes. Keep, pick an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "variable-font-specimen",
+      "label": "Ejes (Variable Specimen)",
+      "kicker": "THE ROLL",
+      "lineage": "foundry variable-font specimen pages",
+      "thesis": "The site as a live type specimen whose axis sliders drive the whole grid — and BIO³ is literally three axes, so the sliders are Bioinformática, Bioestadística and Biomatemáticas.",
+      "palette": ["#f6f6f4", "#0e0e0e", "#d1462f"],
+      "materials": ["near-white paper", "ink black", "one foundry accent"],
+      "viewport": "A giant BIO³ setting the page's scale, three axis sliders beneath it morphing every glyph and content cell in real time, with a monospace readout of axis values.",
+      "risk": "Long member bios do not fit a glyph grid; without the three-axis idea it is a designer toy on a research group's page.",
+      "raised": [
+        { "from": "seven-segment", "raise": "Dates as fixed-slot tabular readouts: unlit ghost cells behind every figure, seminar times never reflow." },
+        { "from": "shareware-installer", "raise": "A block-stepped progress bar showing how far the current seminar trimester has advanced." }
+      ],
+      "wireframe": {
+        "cols": 12, "rows": 10,
+        "regions": [
+          { "label": "navbar", "x": 0, "y": 0, "w": 12, "h": 1 },
+          { "label": "giant BIO³ specimen", "x": 0, "y": 1, "w": 12, "h": 3, "accent": true },
+          { "label": "three axis sliders + readout", "x": 0, "y": 4, "w": 12, "h": 1, "accent": true },
+          { "label": "glyph grid = disciplines", "x": 0, "y": 5, "w": 6, "h": 3 },
+          { "label": "content panel: members/seminars", "x": 6, "y": 5, "w": 6, "h": 3 },
+          { "label": "colophon", "x": 0, "y": 8, "w": 12, "h": 1 }
+        ]
+      },
+      "buildPath": { "value": "code" }
+    },
+    {
+      "id": "memory-quilt-atlas",
+      "label": "Atlas de Retallos",
+      "verdict": "wins",
+      "lineage": "memory quilts and provenance atlases",
+      "thesis": "Every member is a block with body, date and history — a provenance atlas where bios are captions stitched to their fabric.",
+      "palette": ["#efe7da", "#24333f", "#c8452c", "#7a5c3a"],
+      "materials": ["chambray and stripe cloth", "new stitch red", "iron-gall captions"],
+      "viewport": "A block grid of unequal patches opening the group statement, each member a labelled block, seminars as dated seams running through it.",
+      "risk": "Handmade warmth can soften the scientific register if the cloth texture gets literal.",
+      "case": "Beats the specimen on both axes: people and provenance are what this audience came for, and patch captions carry bios where a glyph grid cannot.",
+      "hero": "https://impeccable.style/worlds/cards/textiles-weave-drape-fashion-memory-quilt-atlas-hero.webp",
+      "buildPath": { "value": "code" }
+    },
+    {
+      "id": "brick-build-instructions",
+      "label": "Manual de Montaje",
+      "verdict": "competitive",
+      "lineage": "brick build-instruction booklets",
+      "thesis": "The group's work as numbered exploded steps: parts inventory up front, each method shown as a sequence that clicks together.",
+      "palette": ["#8fd0f0", "#101418", "#d1462f", "#f2c400"],
+      "materials": ["instruction-page sky", "black keyline", "stud grid"],
+      "viewport": "Oversized step numerals, wordless arrows, a 1:1 call-out box introducing each discipline.",
+      "risk": "Toy register can undercut institutional seriousness.",
+      "case": "Holds product clarity — numbered steps carry mission and method beautifully; loses on audience identification for peers evaluating rigor.",
+      "hero": "https://impeccable.style/worlds/cards/games-toys-physics-play-brick-build-instructions-hero.webp",
+      "buildPath": { "value": "code" }
+    },
+    {
+      "id": "football-kit-crest",
+      "label": "Plantilla (Kit Wall)",
+      "verdict": "competitive",
+      "lineage": "football kit crest and fixture grammar",
+      "thesis": "The group as a squad: crest over the heart, members as a numbered team sheet, seminars as the fixture list.",
+      "palette": ["#123b6d", "#f4f4f2", "#d9b23a"],
+      "materials": ["polyester weave", "gold embroidery", "drop-shadow numerals"],
+      "viewport": "Crest and name arched over a full-bleed home colourway, squad numbers resolving into the members grid.",
+      "risk": "Sportswear register can read as fan merchandise next to epidemiology.",
+      "case": "Holds product clarity — team sheet and fixtures map exactly onto members and seminars; loses audience identification with peers judging rigor.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-football-kit-crest-hero.webp",
+      "buildPath": { "value": "code" }
+    },
+    {
+      "id": "seven-segment-alarm-clock",
+      "label": "Siete Segmentos",
+      "verdict": "declined",
+      "lineage": "seven-segment displays",
+      "thesis": "Dates, times and counts in one eight-cell mask, unlit ghost segments designed as carefully as lit ones.",
+      "palette": ["#0b0b0d", "#ff3b30", "#ffb000"],
+      "materials": ["LED segments", "matte black", "ghost cells"],
+      "viewport": "Fixed-slot digit cells stating the next seminar date at totem scale.",
+      "risk": "Digits cannot carry prose; a research group is not a scoreboard.",
+      "case": "Loses both: no register fit for this audience, and member bios cannot exist in a segment mask.",
+      "kept": "Fixed-slot tabular date readouts with ghost cells.",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-seven-segment-alarm-clock-hero.webp",
+      "buildPath": { "value": "code" }
+    },
+    {
+      "id": "shareware-installer-screens",
+      "label": "Asistente 1994",
+      "verdict": "declined",
+      "lineage": "shareware install wizards",
+      "thesis": "The site as a linear install wizard with beveled chrome, dithered banner and a stepped progress bar.",
+      "palette": ["#c0c0c0", "#000080", "#00a0e0"],
+      "materials": ["system gray chrome", "dithered bitmap"],
+      "viewport": "A bordered dialog with a fixed banner down the left edge and next/back controls.",
+      "risk": "A dated gag; linear gating fights open browsing of members and seminars.",
+      "case": "Loses both: no identification for scientific peers, and the wizard cannot carry free navigation.",
+      "kept": "Block-stepped progress for the seminar trimester.",
+      "hero": "https://impeccable.style/worlds/cards/digital-design-canon-shareware-installer-screens-hero.webp",
+      "buildPath": { "value": "code" }
+    },
+    {
+      "id": "canon",
+      "label": "The category standard",
+      "kicker": "CANON",
+      "thesis": "What every university research group ships: navy hero with photo, three cards, logo strip — executed impeccably.",
+      "palette": ["#ffffff", "#0c2544", "#1d5fb0"],
+      "materials": ["clean grid", "stock campus photography"],
+      "viewport": "The arrangement a visitor expects, at full craft.",
+      "risk": "Indistinguishable from every other group page by design.",
+      "wireframe": {
+        "cols": 12, "rows": 10,
+        "regions": [
+          { "label": "navy hero + photo", "x": 0, "y": 0, "w": 12, "h": 4, "accent": true },
+          { "label": "3 info cards", "x": 0, "y": 4, "w": 12, "h": 3 },
+          { "label": "logo strip", "x": 0, "y": 7, "w": 12, "h": 1 },
+          { "label": "footer", "x": 0, "y": 8, "w": 12, "h": 2 }
+        ]
+      },
+      "buildPath": { "value": "code" }
+    }
+  ],
+  "reroll": { "registers": ["safer", "bolder"] },
+  "canon": true,
+  "steer": true,
+  "buildPath": { "value": "code" }
+}
