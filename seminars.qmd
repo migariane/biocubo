@@ -249,5 +249,7 @@ Ponente: [Nombre Apellido] · [Afiliación]
 ::: institutional-footer
 [![Universidad de Granada](images/logo_ugr.png){width="120px" alt="Escudo de la Universidad de Granada"}](https://www.ugr.es)
 
+[![Universidad de Granada](images/logo_ugr.png){width="120px"}][![BIO³ BIOCUBO](images/biocubo_logo.svg){width="120px"}]
+
 Para proponer una ponencia o para más información, contacta con el grupo a través de la [Universidad de Granada](https://www.ugr.es).
 :::
